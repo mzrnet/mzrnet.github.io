@@ -2,7 +2,7 @@
 
 重庆联通IPTV内网单播
 酷9链接
-https://mzrnet.github.io/iptv/ku9.m3u
+https://mzrnet.github.io/iptv/1.m3u
 
 
 自用Clash地址
