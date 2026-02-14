@@ -5,933 +5,901 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: AL²_1|2.2MB/s|42%, server: 78.159.131.210, port: 443, type: vless, uuid: dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24, short-id: "8780dd274b21219d" }, servername: al.cdn.stun.su, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: HU²_1|2.6MB/s, server: 89.169.128.105, port: 443, type: vless, uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg, short-id: "2715592069f36fe7" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Local ISP_1|1.9MB/s|0%, server: 198.71.233.69, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: Local ISP_2|2.6MB/s, server: 45.12.31.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: TR²_1|4.7MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 7e2b2894-3b5c-4b65-acc5-e1784f4047f2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "e57932a42872a362" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: TR²_2|1.2MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 0a9fe7e0-e02d-42ca-bebd-ecb4292f180c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "c6ef72e4635d15a5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: TR²_3|2.4MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 7e2b2894-3b5c-4b65-acc5-e1784f4047f2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "e57932a42872a362" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇨🇦 CA²_1|1.6MB/s, server: 104.20.1.252, port: 80, type: vless, uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9, tls: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed", headers: {Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_1|1.3MB/s, server: 143.20.213.43, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_2|4.7MB/s, server: 143.20.213.206, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_3|3.6MB/s, server: 143.20.213.86, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%, server: 45.153.230.220, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_5|3.5MB/s, server: 143.20.213.235, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 FR¹-CA⁰_1|1.1MB/s, server: 62.133.62.253, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%, server: 98.70.26.236, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 LT¹-CA⁰_1|1.9MB/s, server: 192.144.39.33, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 NL¹-CA⁰_1|2.7MB/s, server: 45.89.110.69, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 NL¹-CA⁰_2|2.0MB/s, server: 46.29.235.75, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 NL¹-CA⁰_3|3.4MB/s, server: 213.183.61.211, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇦 NL¹-CA⁰_4|1.5MB/s, server: 143.20.236.36, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇨🇳 TW²_1|8.9MB/s|History, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW¹-CA⁰_1|5.3MB/s, server: 203.69.248.40, port: 10443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇩🇪 DE²_1|2.1MB/s|History, server: 193.233.254.9, port: 1080, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 DE²_2|2.4MB/s, server: gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com, port: 33431, type: vless, uuid: 931269c0-c592-4935-9bd4-bfec4eafb1d2, tls: true, skip-cert-verify: false, reality-opts: {public-key: DQjRDYsGHriGDOyYw4ikOCgg8fnPoK6Hw74wuio7qyk, short-id: "cceca309a6cd013a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 DE⁻¹_1|1.3MB/s, server: 143.20.213.97, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇬🇧 GB²_1|1.7MB/s, server: 166.1.155.97, port: 11220, type: vless, uuid: 6dfbef3b-f718-4053-806f-c9657e2fd943, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: nRUFKXfldeXh6hIoO6hAeBC3NtUHhaHyNkOeNGyjsjk, short-id: "fcc5f0e9" }, servername: python.org, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 HK²_1|5.0MB/s|0%|History, server: 20.205.138.223, port: 443, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK²_2|4.1MB/s|History, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇯🇵 JP¹-CA⁰_1|8.7MB/s, server: 54.95.94.250, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇰🇷 KR²_1|9.8MB/s|History, server: 1.234.23.159, port: 443, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR¹-CA⁰_1|1.4MB/s, server: 20.47.90.83, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇰🇷 KR¹-US⁰_1|3.4MB/s, server: 61.85.171.204, port: 12371, type: vless, uuid: 5566ef21-b44d-4f2f-9356-6664a7c611ee, tls: true, skip-cert-verify: false, servername: mc2-1rw.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: mc2-1rw.pages.dev}}, udp: true}
-  - {name: 🇳🇱 NL²_1|3.2MB/s, server: 193.39.208.209, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_2|1.5MB/s, server: 193.39.208.105, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_3|1.3MB/s, server: nld14.freednet.org, port: 443, type: vless, uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs}, servername: www.cybo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_4|2.7MB/s, server: 193.39.208.207, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_5|1.3MB/s, server: 144.31.92.241, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_6|1.9MB/s, server: 144.31.92.240, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL²_7|1.8MB/s, server: 144.31.92.87, port: 8443, type: vless, uuid: e6ec1d89-17fc-4de7-af89-81cd51022526, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL⁻¹_1|3.4MB/s, server: 143.20.236.24, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇵🇱 PL²_1|2.3MB/s, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇷🇺 RU²_1|1.1MB/s, server: 149.126.16.38, port: 443, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 RU²_2|1.6MB/s, server: s32.buzzvpn.online, port: 8443, type: vless, uuid: c0afdbe5-e506-4fd4-b838-6f9ee6fc3a5f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 0SzpdO0462wZ7qyy2aasdMVAcd8dtuWPN0aH8DfLY0Y, short-id: "548cdc" }, servername: api-maps.yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_10|2.3MB/s, server: 144.31.233.71, port: 8443, type: vless, uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: DEwHJJPG8V6AUWTCV-jF7ObVMxa-QktiKILmh6FZnHM}, servername: ya.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_11|1.5MB/s|0%, server: 144.31.233.74, port: 8443, type: vless, uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: DEwHJJPG8V6AUWTCV-jF7ObVMxa-QktiKILmh6FZnHM}, servername: ya.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_1|1.7MB/s|7%, server: 178.154.223.56, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI, short-id: "a9725715bf4c62ff" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_2|1.1MB/s, server: 210.75.240.178, port: 4781, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US²_3|2.5MB/s|7%, server: 178.154.220.163, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_4|1.4MB/s|0%, server: 31.57.56.202, port: 443, type: vless, uuid: d4d170e8-a931-4d6b-b98c-1674ed9ee145, tls: true, skip-cert-verify: false, reality-opts: {public-key: jRVi_paIhEgMtE9wDcu8cB5P0XK06LtCQbsXqu5mpSg, short-id: "0bfbafc5d00aee37" }, servername: moktana.digital, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}, udp: true}
-  - {name: 🇺🇸 US²_5|1.1MB/s, server: 104.167.197.27, port: 443, type: vless, uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk, short-id: "5a2d4f49" }, servername: azure.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_6|3.1MB/s, server: 51.250.10.213, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI, short-id: "a9725715bf4c62ff" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_7|1.0MB/s, server: 51.250.68.39, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI, short-id: "a9725715bf4c62ff" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_8|2.3MB/s|7%, server: 178.154.220.169, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_9|1.5MB/s, server: 51.250.14.123, port: 443, type: vless, uuid: e44c7a66-0d05-42bc-a37b-bfed2a4fbcc1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_10|1.0MB/s, server: 199.181.197.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%, server: 147.78.140.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_12|1.4MB/s, server: 209.46.30.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%, server: 104.129.164.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_14|2.2MB/s, server: 88.216.69.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_15|1.1MB/s, server: 141.11.202.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_16|4.8MB/s, server: 192.69.92.118, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_17|1.6MB/s, server: 209.46.30.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_18|1.8MB/s, server: v2.dabache.top, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_19|1.5MB/s, server: 69.84.182.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_1|1.2MB/s, server: 185.162.229.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_20|1.6MB/s, server: 45.131.6.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_21|1.5MB/s, server: 185.7.240.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_22|1.4MB/s, server: 69.84.182.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_23|2.6MB/s, server: 25.129.199.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_24|2.4MB/s, server: 86.38.214.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%, server: 185.251.81.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_26|1.0MB/s, server: 185.170.166.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%, server: 188.164.248.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_28|2.1MB/s, server: 185.148.106.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_29|1.5MB/s, server: 209.94.90.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_2|1.1MB/s, server: 45.149.12.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_30|1.3MB/s, server: 185.135.9.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%, server: 104.129.164.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_32|1.9MB/s, server: 45.156.24.61, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_33|1.6MB/s, server: 67.226.221.104, port: 80, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_34|1.9MB/s, server: 130.250.137.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%, server: 91.206.71.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_36|2.1MB/s, server: 185.16.110.0, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_37|1.1MB/s, server: 103.116.7.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_38|1.2MB/s, server: 185.133.35.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_39|1.2MB/s, server: 192.0.63.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_3|2.3MB/s, server: 135.84.74.65, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_40|3.5MB/s, server: 80.93.202.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_41|1.4MB/s, server: 160.79.104.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_42|1.2MB/s, server: 185.193.28.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_43|1.5MB/s, server: 135.84.72.44, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_4|1.8MB/s, server: 162.120.94.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_5|2.9MB/s, server: 185.16.110.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_6|1.2MB/s, server: 45.131.211.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_7|4.8MB/s, server: 192.69.92.118, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_8|1.0MB/s, server: 25.129.198.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US¹-CA⁰_9|2.2MB/s, server: 45.80.108.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US¹_1|2.7MB/s, server: v3.dabache.top, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US¹_2|3.2MB/s, server: 104.16.105.166, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US¹_3|1.7MB/s, server: www.gov.se, port: 443, type: vless, uuid: 25577310-a767-4b2c-90c6-9fcf4bb387f0, tls: true, skip-cert-verify: false, servername: fffb57cc.tacgne.pages.dev, client-fingerprint: random, network: ws, ws-opts: {path: /, headers: {Host: fffb57cc.tacgne.pages.dev}}, udp: true}
-  - {name: 🇺🇸 US¹_4|1.0MB/s, server: 27.50.48.59, port: 2096, type: vless, uuid: 5566ef21-b44d-4f2f-9356-6664a7c611ee, tls: true, skip-cert-verify: false, servername: mc2-1rw.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: mc2-1rw.pages.dev}}, udp: true}
-  - {name: 🇺🇸 US¹_5|3.5MB/s|5%, server: 8.34.146.255, port: 2083, type: vless, uuid: 5566ef21-b44d-4f2f-9356-6664a7c611ee, tls: true, skip-cert-verify: false, servername: mc2-1rw.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: mc2-1rw.pages.dev}}, udp: true}
-  - {name: 🇺🇸 US¹_6|2.4MB/s, server: 104.18.89.52, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US¹_7|1.5MB/s, server: 172.64.229.7, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_1|2.0MB/s, server: 135.84.72.75, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_2|1.0MB/s, server: 162.159.24.131, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_3|4.7MB/s, server: 192.200.160.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_4|1.0MB/s, server: 205.233.181.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_5|3.5MB/s, server: 162.159.128.253, port: 443, type: vless, uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902, tls: true, skip-cert-verify: false, servername: cf.cloudip.ggff.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /pyip=proxyip.cmliussss.net, headers: {Host: cf.cloudip.ggff.net}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_6|2.5MB/s, server: 45.40.154.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.jpmj.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.jpmj.dev}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_7|3.5MB/s, server: 104.129.166.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
+  - {name: CH²_1|1.8MB/s|0%, server: che01-plr-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 0d57032d-f54e-49a4-8285-39840bbf329e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "f79448a30d" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: CH²_2|3.4MB/s|39%, server: 208.69.78.51, port: 443, type: vless, uuid: 891300bc-11b2-4b24-8056-b329b098888b, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EFvlYXZ3rzSZ1GExmKKisVGeQP0sOPJOP1LbhVL4bwc, short-id: "31ec5330f6b859" }, servername: github.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: CH²_3|3.4MB/s|0%, server: che01-plr-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 4604876a-0652-4835-88bd-4421ea5c40da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "8453e5fd9af927" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: CY²_1|3.4MB/s|21%, server: ltu01-vlr01.tcp-reset-club.net, port: 12443, type: vless, uuid: 4604876a-0652-4835-88bd-4421ea5c40da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "8453e5fd9af927" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: CY²_2|1.1MB/s, server: cze01-vlr01.tcp-reset-club.net, port: 10443, type: vless, uuid: 4604876a-0652-4835-88bd-4421ea5c40da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "d3b13f31" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: EE²_1|1.5MB/s, server: s481.ccgfw.top, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u708330uad0es481.ccgfw.top, client-fingerprint: random, network: tcp, udp: true}
+  - {name: EE²_2|1.9MB/s, server: 69.12.83.251, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u708330u1d55s473.ccgfw.top, client-fingerprint: random, network: tcp, udp: true}
+  - {name: FI²_1|2.0MB/s, server: 45.144.53.235, port: 7443, type: vless, uuid: c0c3dc30-4ed9-e13d-50e8-0a84a84815e3, tls: true, alpn: [h2, http/1.1], skip-cert-verify: false, servername: fin2.subsvdragontoo.online, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: fin2.subsvdragontoo.online}}, udp: true}
+  - {name: FI²_2|1.8MB/s, server: access-fl13.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: o_nPeuqIj7R8U-Pdy2waXoFJG17ZgVBA8G6laNFEVks, short-id: "4b84a23137636ccd" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FI²_3|1.9MB/s, server: access-fl5.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: vgBHFTBHP6l68VaR-iUrRHBvikyHitKQ9wRWu8VrH2A, short-id: "5d8d8596f778338b" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FI²_4|1.1MB/s, server: access-fl28.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: LQBxWSLJz3GXA90DDOVLed5NYQtvbYWxV0JXMRnXVyc, short-id: "0d8ffad620b24163" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: HU²_1|4.7MB/s, server: 217.13.104.174, port: 1443, type: vless, uuid: 6255a223-325c-4809-960e-ff072156735c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: L6JmMq7D45s3pLCMas0Ukf3TWmCgYNEqo8ar8hFkfxY, short-id: "a2ab4b90e001c0b9" }, servername: apiok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: KZ²_1|1.4MB/s, server: kz01-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 0d57032d-f54e-49a4-8285-39840bbf329e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "31" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: LV²_1|1.7MB/s, server: lv-mirror.api.akenai.click, port: 8443, type: vless, uuid: a607f07f-2937-4c2c-aec6-363e0688abd2, tls: true, skip-cert-verify: false, reality-opts: {public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500, short-id: "b91a73752053b039" }, servername: www.amd.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: LV²_2|2.7MB/s, server: ezoutlet.cc, port: 443, type: vless, uuid: 891300bc-11b2-4b24-8056-b329b098888b, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qo3jBqwpRCfpkfTd63dnsBqw25Rf2StRUVOLXBNjJxM, short-id: "dd8409409d7361" }, servername: render.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: LV²_3|3.3MB/s, server: access-lv.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 50Zp-z_zGSs2Aus-SAqd9Db6kGb_6-_CyEB37TYODGs, short-id: "3dd903829bcc68ef" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: LV¹-SE⁰_1|3.1MB/s, server: 84.21.172.81, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
+  - {name: TR²_1|1.5MB/s, server: tr.jinnie.lol, port: 443, type: vless, uuid: 53d37ac8-efc2-492c-b6c6-a864dfebbbff, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 0-0a99RLOG_2OW4j-e-UlzlMhnLubb9Gs6Ykd_bnjCM, short-id: "e8b1ac21a7685b9c" }, servername: tr.jinnie.lol, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_2|3.4MB/s, server: 89.169.162.214, port: 8443, type: vless, uuid: 1a5b443d-42f3-4e8e-b980-2ebf9e74a45d, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "c6ef72e4635d15a5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_3|2.4MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 1a5b443d-42f3-4e8e-b980-2ebf9e74a45d, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "205748bc0f24a747" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_4|2.4MB/s, server: 89.169.162.214, port: 8443, type: vless, uuid: 0a9fe7e0-e02d-42ca-bebd-ecb4292f180c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "c6ef72e4635d15a5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_5|4.5MB/s, server: 93.114.98.171, port: 443, type: vless, uuid: 990e5a63-71e4-4dca-b110-ea8f9bf9f54b, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 9hLM71lkMgoCAzQJ2WBv5TXI_4Lucl5DctQveS85A0Q, short-id: "1c" }, servername: www.amd.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_6|2.2MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 86c8a690-9602-4d40-bbf7-156720de104f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "c6ef72e4635d15a5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_7|4.8MB/s, server: 93.114.98.171, port: 443, type: vless, uuid: 990e5a63-71e4-4dca-b110-ea8f9bf9f54b, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 9hLM71lkMgoCAzQJ2WBv5TXI_4Lucl5DctQveS85A0Q, short-id: "1c" }, servername: www.amd.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_8|3.4MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 0a9fe7e0-e02d-42ca-bebd-ecb4292f180c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "c6ef72e4635d15a5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TR²_9|2.8MB/s, server: 89.169.162.214, port: 443, type: vless, uuid: 7cd318d9-4bf8-4a7a-8680-af84282953e6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: "205748bc0f24a747" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇨🇦 CA²_1|1.2MB/s, server: ss3.beifengyun.top, port: 443, type: vless, uuid: 25e80c83-4de8-4479-a5ab-8ab239c46591, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: B7OdhRu8r4hB2qH3lMaYZKImHrD7VhjBKZef0gkBnmc, short-id: "9295a6a1874981" }, servername: www.intel.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇨🇦 CA²_2|3.1MB/s|History, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 🇨🇳 TW²_1|1.3MB/s, server: 114.43.16.109, port: 20280, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇨🇳 TW²_2|2.4MB/s, server: hinet2.xn--9kqp42aims.top, port: 20280, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇩🇪 DE²_1|3.5MB/s|53%, server: 45.150.174.84, port: 443, type: vless, uuid: 4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo, short-id: "f203719d3ff9a5f5" }, servername: maviks.eu, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 DE²_2|2.0MB/s, server: access-de4.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: jtECS8GeY0dRcVtbUgGiQ_AUIllOwrkldFQnlzp0TRs, short-id: "ed62673442aeef4d" }, servername: access-de4.agveit.pro, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 DE²_3|3.5MB/s|53%, server: 91.238.82.243, port: 443, type: vless, uuid: 4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo, short-id: "f203719d3ff9a5f5" }, servername: maviks.eu, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 DE²_4|4.7MB/s|0%, server: flkf3.mangshe.xyz, port: 2056, type: hysteria2, password: 7dd10318-28fd-413f-81f0-cd0a286e4779, auth: 7dd10318-28fd-413f-81f0-cd0a286e4779, sni: flkf3.mangshe.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 DE²_6|2.0MB/s, server: 138.124.186.157, port: 443, type: vless, uuid: ee750cca-f549-4e78-8648-a6b762953e70, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: deu542.globalunlock.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 FR²_1|3.1MB/s|0%, server: fran.scroogethebest.com, port: 443, type: vless, uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc, short-id: "4fa44664f6a566d3" }, servername: fran.scroogethebest.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 FR²_2|1.5MB/s, server: 185.156.72.124, port: 52042, type: vless, uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d, tls: true, skip-cert-verify: false, reality-opts: {public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY, short-id: "8e8dcb9a67bf43f1" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 FR²_3|1.2MB/s|10%, server: fr.cdn.stun.su, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM, short-id: "3bdec72a5a0ffd84" }, servername: fr.cdn.stun.su, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 FR²_4|1.5MB/s|10%, server: fr.cdn.stun.su, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM, short-id: "3bdec72a5a0ffd84" }, servername: fr.cdn.stun.su, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 HK²_1|3.2MB/s|History, server: 2.hk.1.cdn-bilibili.cn, port: 443, type: vless, uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU}, servername: www.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: 🇭🇰 HK²_2|7.5MB/s|2%-CN, server: 112.120.103.25, port: 20519, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇭🇰 HK²_3|5.5MB/s|2%, server: hkt.xn--9kqp42aims.top, port: 20519, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇭🇰 HK²_4|1.0MB/s, server: 203.23.128.33, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇭🇰 HK²_5|10.0MB/s|0%|History, server: 20.205.138.223, port: 443, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 US²_10|1.8MB/s-HK, server: 112.120.103.25, port: 20516, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇯🇵 JP²_1|3.4MB/s|9%, server: hkt.xn--9kqp42aims.top, port: 20517, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇯🇵 JP²_2|6.2MB/s|9%, server: 112.120.103.41, port: 20418, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇰🇷 KR²_1|20.3MB/s, server: 47.80.13.85, port: 443, type: vless, uuid: 3e7f67de-648e-4871-b51a-a225214d41ee, tls: true, skip-cert-verify: false, reality-opts: {public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw}, servername: api.company-target.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR²_2|9.1MB/s|4%|History, server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 NL²_10|3.3MB/s, server: yofree.top, port: 443, type: vless, uuid: d5733d40-09b5-11f1-9e6c-52540015e6ea, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk, short-id: "fa2f" }, servername: yofree.top, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_11|3.3MB/s|0%, server: nl.jojack.ru, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4, short-id: "6bb3c7f9f97b45b8" }, servername: nl.jojack.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_12|3.8MB/s|25%, server: 152.53.106.193, port: 7443, type: vless, uuid: 4ff29b06-3b6c-44c0-892f-4a00cb98d355, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: "be0ce047" }, servername: chat.deepseek.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_13|1.1MB/s|0%, server: access-nl6.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 10-4InxFHyccvjCXrGkUzdti6zBHYYqdYrJJCj3e5AU, short-id: "9ce7391349f87cb3" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_1|5.0MB/s|0%, server: access-nl2.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 50Zp-z_zGSs2Aus-SAqd9Db6kGb_6-_CyEB37TYODGs, short-id: "3dd903829bcc68ef" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_2|4.3MB/s, server: 5.188.143.8, port: 443, type: vless, uuid: c343f67e-8781-4a8e-97e4-e74ab137eb1c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: c8x7I-K2ONBUw5B2d1aZr7JNcFUu7GDfs8PAK-4qM1E, short-id: "0d33e856" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_3|3.4MB/s|History, server: 161.35.82.57, port: 1080, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 NL²_4|4.1MB/s, server: 95.163.214.120, port: 8443, type: vless, uuid: c0c3dc30-4ed9-e13d-50e8-0a84a84815e3, tls: true, alpn: [h2, http/1.1], skip-cert-verify: false, servername: ndded2.subsvdragontoo.online, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: ndded2.subsvdragontoo.online}}, udp: true}
+  - {name: 🇳🇱 NL²_5|2.4MB/s, server: 94.228.213.209, port: 443, type: vless, uuid: 4604876a-0652-4835-88bd-4421ea5c40da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "e499f276e7bd6420" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_6|3.4MB/s|0%, server: access-nl7.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Xl-9_09XVeGBAryHNHqgcOb-XyWP8ZhvRNAuXVolpVM, short-id: "6c39f0fbefe21499" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_7|1.7MB/s, server: s502.okgg.top, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u708330uc21fs502.okgg.top, client-fingerprint: random, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_8|4.2MB/s, server: 188.212.125.121, port: 443, type: vless, uuid: c73b5c37-0c2b-4d78-8a48-d32bba7432b4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: kEwGhfvGuVsFGuK_udvrytSKGb081PL3Z_hBDAgDzS0, short-id: "9c2378562188c3cb" }, servername: nl.kickvpn.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL²_9|1.3MB/s|0%, server: access-nl10.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: J67fhoDTpUkqye1ZAWj6IS9Bxlzp2oolNBRyA7LIh00, short-id: "315211a8caa8ce38" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇵🇱 PL²_1|1.7MB/s, server: 158.160.221.132, port: 8443, type: vless, uuid: f60a9d13-1d10-4ce5-ae8a-79e0daeaa064, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇵🇱 PL²_2|1.0MB/s, server: 158.160.105.121, port: 51102, type: vless, uuid: 56e1592c-cae7-4ff1-b9d9-07ee111968b5, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "1929ef620e9b34f5" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇵🇱 PL²_3|1.4MB/s, server: 158.160.105.121, port: 8443, type: vless, uuid: f60a9d13-1d10-4ce5-ae8a-79e0daeaa064, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇵🇱 PL²_4|4.8MB/s, server: 95.163.214.120, port: 9443, type: vless, uuid: c0c3dc30-4ed9-e13d-50e8-0a84a84815e3, tls: true, alpn: [h2, http/1.1], skip-cert-verify: false, servername: ndded2.subsvdragontoo.online, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: ndded2.subsvdragontoo.online}}, udp: true}
+  - {name: 🇵🇱 PL²_5|4.5MB/s, server: 5.188.140.18, port: 1488, type: vless, uuid: 7bc30425-1c2f-4823-b629-90f599a4cbfe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇵🇱 PL²_6|1.3MB/s, server: 158.160.105.121, port: 8443, type: vless, uuid: 6d39596c-b569-4a61-86c3-28cfb83a4c95, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_10|3.5MB/s, server: 51.250.64.186, port: 443, type: vless, uuid: 0ce5c16f-ea7c-49fa-896d-2044acf172d2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: "64c1fe36c7846400" }, servername: sun6-22.userapi.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_11|1.7MB/s, server: ru.jinnie.lol, port: 443, type: vless, uuid: 53d37ac8-efc2-492c-b6c6-a864dfebbbff, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 0-0a99RLOG_2OW4j-e-UlzlMhnLubb9Gs6Ykd_bnjCM, short-id: "e8b1ac21a7685b9c" }, servername: ru.jinnie.lol, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_12|1.3MB/s, server: spb.scroogethebest.com, port: 443, type: vless, uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: C3hc32Cknec2shasKJIH2DYVb7Fyu64RF9v71L3ipEg, short-id: "9c2378562188c3cb" }, servername: spb.scroogethebest.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_13|4.9MB/s, server: ru87.lowlatency.cloud, port: 443, type: vless, uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4, tls: true, skip-cert-verify: false, reality-opts: {public-key: BFu6ZFV1Ej0ekaxceff7o1vHZmAYaJSqA4lIuiEQwUE, short-id: "98c397de" }, servername: apple.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, udp: true}
+  - {name: 🇷🇺 RU²_14|1.0MB/s, server: 109.176.229.97, port: 8443, type: vless, uuid: cdeedd27-4b50-4f5b-b0c4-1967cc972f93, tls: true, skip-cert-verify: false, reality-opts: {public-key: LHlFdzprRH3N8OxZK5WrGSu5vtr0_fu6iLzHAFNt9AM, short-id: "3543d68a" }, servername: tgju.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_15|4.7MB/s, server: vip3.kaixincloud.top, port: 2052, type: vless, uuid: 25b7069d-a1e0-4053-8469-a54ec1ce8f56, tls: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: rOugh-preseNCEUROCy1N6YY.sEOtOOLsfOryou.cO.UK}}, udp: true}
+  - {name: 🇷🇺 RU²_16|1.7MB/s, server: meow-msc.nethcloud.top, port: 8443, type: vless, uuid: bf9931be-a7fd-46b3-9919-b858299e9f65, tls: true, skip-cert-verify: false, reality-opts: {public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ, short-id: "8bd29483ded126b4" }, servername: wikihow.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_17|3.8MB/s|21%, server: icshstor.site, port: 23411, type: vless, uuid: 1eea1e0b-6388-491c-b310-5524e8384808, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 0Z7LFqDUF568Df972BbYorpeykKnN-Z98jHjDBnRbCE, short-id: "b69808" }, servername: icshstor.site, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_18|3.6MB/s, server: 5.129.193.147, port: 443, type: vless, uuid: 0ce5c16f-ea7c-49fa-896d-2044acf172d2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: "64c1fe36c7846400" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_1|3.8MB/s, server: 178.154.204.86, port: 443, type: vless, uuid: 853fb55f-e53f-460a-b562-e2683f14be4a, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 2kiel7JoE7or5SU53QriSRw8XfCl6r0KKXKKOsKkAUw, short-id: "6f0c2a9d" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_2|3.8MB/s, server: 84.201.158.253, port: 443, type: vless, uuid: 853fb55f-e53f-460a-b562-e2683f14be4a, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: NutLsXiKjKS8k4_Vx8lYf3okX64WXykaTTS8OnTVQ3I, short-id: "6f0c2a9d" }, servername: api-maps.yandex.ru, client-fingerprint: random, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_3|4.9MB/s, server: 51.250.0.147, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg, short-id: "6354585c37827955" }, servername: ads.x5.ru, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_4|3.5MB/s, server: 51.250.0.147, port: 443, type: vless, uuid: f625ba3b-93dc-4a87-9e69-f39a2f16ff98, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg, short-id: "3f200574d011010f" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_5|1.9MB/s, server: 91.233.223.147, port: 3128, type: http, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 RU²_6|3.3MB/s, server: 85.239.37.168, port: 443, type: vless, uuid: c343f67e-8781-4a8e-97e4-e74ab137eb1c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Otp6rARZ7jSowG_Y7AyU7H_5KoEmmSipWNMW6cHOMmU, short-id: "0d33e856" }, servername: m.vk.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_7|5.0MB/s, server: 84.201.131.144, port: 443, type: vless, uuid: 0ce5c16f-ea7c-49fa-896d-2044acf172d2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: "64c1fe36c7846400" }, servername: sun6-22.userapi.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_8|2.2MB/s, server: 185.39.206.226, port: 443, type: vless, uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc, short-id: "b8cf9578640a9edf" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 RU²_9|4.6MB/s, server: 89.169.137.193, port: 443, type: vless, uuid: 0ce5c16f-ea7c-49fa-896d-2044acf172d2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: "d1579a8745398e34" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇸🇬 SG²_1|10.5MB/s, server: s222.okgfw.top, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u708330u8fc0s222.okgfw.top, client-fingerprint: random, network: tcp, udp: true}
+  - {name: 🇸🇬 SG²_2|8.9MB/s, server: s220.okgfw.top, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: u708330u960es220.okgfw.top, client-fingerprint: random, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_11|3.3MB/s, server: 144.31.128.47, port: 443, type: vless, uuid: a607f07f-2937-4c2c-aec6-363e0688abd2, tls: true, skip-cert-verify: false, reality-opts: {public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500, short-id: "b91a73752053b039" }, servername: se-mirror.api.akenai.click, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_12|1.8MB/s, server: usa.fastexte.pro, port: 443, type: vless, uuid: 080c676a-c43f-4e73-aed9-db90ece9d4fb, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8}, servername: usa.fastexte.pro, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_13|1.8MB/s, server: access-lv5.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: -0GYCqXC0zrwqPVZnqihUBFzjWVD17NLYWYaydMm1BI, short-id: "b074bb18ab535436" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_15|1.8MB/s, server: access-lv10.agveit.pro, port: 443, type: vless, uuid: 637bd1f3-f097-4fa2-a62d-322f1aede2fe, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: B1RgXN1uLE1Aq3bspliRl7u4m8A2Ijvwy4UDuSFgjhw, short-id: "d553dfdcc0c4cfc0" }, servername: queuev4.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_16|4.0MB/s|40%|History, server: 37.1.214.101, port: 24569, type: vless, uuid: 2f8a9b9c-4976-4b66-be1f-2bcac17a3fef, tls: true, skip-cert-verify: false, reality-opts: {public-key: f9Da-SR8Y8cAbTicKYnaz4GSz6ohT0m_ZM-3klm9LFg, short-id: "6798721f6d" }, servername: ign.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_17|1.9MB/s|34%, server: s844.ccgfw.top, port: 443, type: vless, uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e, tls: true, skip-cert-verify: false, servername: u708330ub869s844.ccgfw.top, client-fingerprint: ios, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ssp}, udp: true}
+  - {name: 🇺🇸 US²_18|4.1MB/s, server: us2.myyemail.com, port: 443, type: vless, uuid: b9674dd8-c6ed-4be6-af5c-31490ba4d106, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: us2.b01d1e-cdd6-4a11-9fb8-1c45613e3eab.chaoyueemail.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_19|6.0MB/s|3%, server: 112.120.103.41, port: 20417, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_1|2.4MB/s, server: hkt1.xn--9kqp42aims.top, port: 20417, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI, short-id: "4b070735" }, servername: buylite.music.apple.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_20|1.5MB/s, server: 104.167.197.27, port: 443, type: vless, uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk, short-id: "5a2d4f49" }, servername: azure.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_2|5.3MB/s|35%-CN, server: 107.175.194.57, port: 8882, type: hysteria2, password: 0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf, auth: 0e1a66ab-5313-45b3-90e8-ab2a62ff1bdf, sni: cn.bing.com, skip-cert-verify: false, alpn: [h3], udp: true}
+  - {name: 🇺🇸 US²_3|2.2MB/s, server: 72.56.92.240, port: 443, type: vless, uuid: GROZA_151883516, tls: true, skip-cert-verify: false, reality-opts: {public-key: oKivnbZabhN2OEtwo2EMyDu73m9UDK7Kwt5DEb8TCVc, short-id: "ffffffffff" }, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_4|2.4MB/s, server: 86.107.101.196, port: 8443, type: vless, uuid: 1e5b8022-d972-4116-acb8-8faee29fff47, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: "6ba85179e30d4fc2" }, servername: ign.dev, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_5|3.1MB/s|0%, server: ae.cdn.stun.su, port: 443, type: vless, uuid: eb071647-72a6-46be-8e89-ff3d228d52f6, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w, short-id: "41a0b29e95aaea87" }, servername: ae.cdn.stun.su, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_6|1.3MB/s|34%, server: us01-gmn-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 4604876a-0652-4835-88bd-4421ea5c40da, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "d3b13f31" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_7|1.1MB/s|0%, server: us.axinode.sbs, port: 443, type: vless, uuid: 4aff5de5-83dc-43c9-a33e-10e6fdb90ed2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Wvt6tuMcFY9rWF2BsdAD4DXgLAoxQJxHWlao2BPR23Y}, servername: apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_8|2.8MB/s, server: 174.136.205.68, port: 443, type: vless, uuid: d1e5c507-6604-43d3-81fd-f7aa3f1c01e1, tls: true, skip-cert-verify: false, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US²_9|1.3MB/s|34%, server: us01-gmn-vlr01.tcp-reset-club.net, port: 443, type: vless, uuid: 0d57032d-f54e-49a4-8285-39840bbf329e, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "d3b13f31" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US¹-CA⁰_1|1.2MB/s, server: 135.84.74.190, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳+@WangCai2", headers: {Host: sni.111000.dynv6.net}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -954,117 +922,113 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AL²_1|2.2MB/s|42%
-      - HU²_1|2.6MB/s
-      - Local ISP_1|1.9MB/s|0%
-      - Local ISP_2|2.6MB/s
-      - TR²_1|4.7MB/s
-      - TR²_2|1.2MB/s
+      - CH²_1|1.8MB/s|0%
+      - CH²_2|3.4MB/s|39%
+      - CH²_3|3.4MB/s|0%
+      - CY²_1|3.4MB/s|21%
+      - CY²_2|1.1MB/s
+      - EE²_1|1.5MB/s
+      - EE²_2|1.9MB/s
+      - FI²_1|2.0MB/s
+      - FI²_2|1.8MB/s
+      - FI²_3|1.9MB/s
+      - FI²_4|1.1MB/s
+      - HU²_1|4.7MB/s
+      - KZ²_1|1.4MB/s
+      - LV²_1|1.7MB/s
+      - LV²_2|2.7MB/s
+      - LV²_3|3.3MB/s
+      - LV¹-SE⁰_1|3.1MB/s
+      - TR²_1|1.5MB/s
+      - TR²_2|3.4MB/s
       - TR²_3|2.4MB/s
-      - 🇨🇦 CA²_1|1.6MB/s
-      - 🇨🇦 DE¹-CA⁰_1|1.3MB/s
-      - 🇨🇦 DE¹-CA⁰_2|4.7MB/s
-      - 🇨🇦 DE¹-CA⁰_3|3.6MB/s
-      - 🇨🇦 DE¹-CA⁰_4|2.5MB/s|5%
-      - 🇨🇦 DE¹-CA⁰_5|3.5MB/s
-      - 🇨🇦 FR¹-CA⁰_1|1.1MB/s
-      - 🇨🇦 IN¹-CA⁰_1|5.5MB/s|5%
-      - 🇨🇦 LT¹-CA⁰_1|1.9MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.7MB/s
-      - 🇨🇦 NL¹-CA⁰_2|2.0MB/s
-      - 🇨🇦 NL¹-CA⁰_3|3.4MB/s
-      - 🇨🇦 NL¹-CA⁰_4|1.5MB/s
-      - 🇨🇳 TW²_1|8.9MB/s|History
-      - 🇨🇳 TW¹-CA⁰_1|5.3MB/s
-      - 🇩🇪 DE²_1|2.1MB/s|History
-      - 🇩🇪 DE²_2|2.4MB/s
-      - 🇩🇪 DE⁻¹_1|1.3MB/s
-      - 🇬🇧 GB²_1|1.7MB/s
-      - 🇭🇰 HK²_1|5.0MB/s|0%|History
-      - 🇭🇰 HK²_2|4.1MB/s|History
-      - 🇯🇵 JP¹-CA⁰_1|8.7MB/s
-      - 🇰🇷 KR²_1|9.8MB/s|History
-      - 🇰🇷 KR¹-CA⁰_1|1.4MB/s
-      - 🇰🇷 KR¹-US⁰_1|3.4MB/s
-      - 🇳🇱 NL²_1|3.2MB/s
-      - 🇳🇱 NL²_2|1.5MB/s
-      - 🇳🇱 NL²_3|1.3MB/s
-      - 🇳🇱 NL²_4|2.7MB/s
-      - 🇳🇱 NL²_5|1.3MB/s
-      - 🇳🇱 NL²_6|1.9MB/s
-      - 🇳🇱 NL²_7|1.8MB/s
-      - 🇳🇱 NL⁻¹_1|3.4MB/s
-      - 🇵🇱 PL²_1|2.3MB/s
-      - 🇷🇺 RU²_1|1.1MB/s
-      - 🇷🇺 RU²_2|1.6MB/s
-      - 🇺🇸 US²_10|2.3MB/s
-      - 🇺🇸 US²_11|1.5MB/s|0%
-      - 🇺🇸 US²_1|1.7MB/s|7%
-      - 🇺🇸 US²_2|1.1MB/s
-      - 🇺🇸 US²_3|2.5MB/s|7%
-      - 🇺🇸 US²_4|1.4MB/s|0%
-      - 🇺🇸 US²_5|1.1MB/s
-      - 🇺🇸 US²_6|3.1MB/s
-      - 🇺🇸 US²_7|1.0MB/s
-      - 🇺🇸 US²_8|2.3MB/s|7%
-      - 🇺🇸 US²_9|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_10|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_11|1.3MB/s|5%
-      - 🇺🇸 US¹-CA⁰_12|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_13|1.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_14|2.2MB/s
-      - 🇺🇸 US¹-CA⁰_15|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_16|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_17|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_18|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_19|1.5MB/s
+      - TR²_4|2.4MB/s
+      - TR²_5|4.5MB/s
+      - TR²_6|2.2MB/s
+      - TR²_7|4.8MB/s
+      - TR²_8|3.4MB/s
+      - TR²_9|2.8MB/s
+      - 🇨🇦 CA²_1|1.2MB/s
+      - 🇨🇦 CA²_2|3.1MB/s|History
+      - 🇨🇳 TW²_1|1.3MB/s
+      - 🇨🇳 TW²_2|2.4MB/s
+      - 🇩🇪 DE²_1|3.5MB/s|53%
+      - 🇩🇪 DE²_2|2.0MB/s
+      - 🇩🇪 DE²_3|3.5MB/s|53%
+      - 🇩🇪 DE²_4|4.7MB/s|0%
+      - 🇩🇪 DE²_6|2.0MB/s
+      - 🇫🇷 FR²_1|3.1MB/s|0%
+      - 🇫🇷 FR²_2|1.5MB/s
+      - 🇫🇷 FR²_3|1.2MB/s|10%
+      - 🇫🇷 FR²_4|1.5MB/s|10%
+      - 🇭🇰 HK²_1|3.2MB/s|History
+      - 🇭🇰 HK²_2|7.5MB/s|2%-CN
+      - 🇭🇰 HK²_3|5.5MB/s|2%
+      - 🇭🇰 HK²_4|1.0MB/s
+      - 🇭🇰 HK²_5|10.0MB/s|0%|History
+      - 🇭🇰 US²_10|1.8MB/s-HK
+      - 🇯🇵 JP²_1|3.4MB/s|9%
+      - 🇯🇵 JP²_2|6.2MB/s|9%
+      - 🇰🇷 KR²_1|20.3MB/s
+      - 🇰🇷 KR²_2|9.1MB/s|4%|History
+      - 🇳🇱 NL²_10|3.3MB/s
+      - 🇳🇱 NL²_11|3.3MB/s|0%
+      - 🇳🇱 NL²_12|3.8MB/s|25%
+      - 🇳🇱 NL²_13|1.1MB/s|0%
+      - 🇳🇱 NL²_1|5.0MB/s|0%
+      - 🇳🇱 NL²_2|4.3MB/s
+      - 🇳🇱 NL²_3|3.4MB/s|History
+      - 🇳🇱 NL²_4|4.1MB/s
+      - 🇳🇱 NL²_5|2.4MB/s
+      - 🇳🇱 NL²_6|3.4MB/s|0%
+      - 🇳🇱 NL²_7|1.7MB/s
+      - 🇳🇱 NL²_8|4.2MB/s
+      - 🇳🇱 NL²_9|1.3MB/s|0%
+      - 🇵🇱 PL²_1|1.7MB/s
+      - 🇵🇱 PL²_2|1.0MB/s
+      - 🇵🇱 PL²_3|1.4MB/s
+      - 🇵🇱 PL²_4|4.8MB/s
+      - 🇵🇱 PL²_5|4.5MB/s
+      - 🇵🇱 PL²_6|1.3MB/s
+      - 🇷🇺 RU²_10|3.5MB/s
+      - 🇷🇺 RU²_11|1.7MB/s
+      - 🇷🇺 RU²_12|1.3MB/s
+      - 🇷🇺 RU²_13|4.9MB/s
+      - 🇷🇺 RU²_14|1.0MB/s
+      - 🇷🇺 RU²_15|4.7MB/s
+      - 🇷🇺 RU²_16|1.7MB/s
+      - 🇷🇺 RU²_17|3.8MB/s|21%
+      - 🇷🇺 RU²_18|3.6MB/s
+      - 🇷🇺 RU²_1|3.8MB/s
+      - 🇷🇺 RU²_2|3.8MB/s
+      - 🇷🇺 RU²_3|4.9MB/s
+      - 🇷🇺 RU²_4|3.5MB/s
+      - 🇷🇺 RU²_5|1.9MB/s
+      - 🇷🇺 RU²_6|3.3MB/s
+      - 🇷🇺 RU²_7|5.0MB/s
+      - 🇷🇺 RU²_8|2.2MB/s
+      - 🇷🇺 RU²_9|4.6MB/s
+      - 🇸🇬 SG²_1|10.5MB/s
+      - 🇸🇬 SG²_2|8.9MB/s
+      - 🇺🇸 US²_11|3.3MB/s
+      - 🇺🇸 US²_12|1.8MB/s
+      - 🇺🇸 US²_13|1.8MB/s
+      - 🇺🇸 US²_15|1.8MB/s
+      - 🇺🇸 US²_16|4.0MB/s|40%|History
+      - 🇺🇸 US²_17|1.9MB/s|34%
+      - 🇺🇸 US²_18|4.1MB/s
+      - 🇺🇸 US²_19|6.0MB/s|3%
+      - 🇺🇸 US²_1|2.4MB/s
+      - 🇺🇸 US²_20|1.5MB/s
+      - 🇺🇸 US²_2|5.3MB/s|35%-CN
+      - 🇺🇸 US²_3|2.2MB/s
+      - 🇺🇸 US²_4|2.4MB/s
+      - 🇺🇸 US²_5|3.1MB/s|0%
+      - 🇺🇸 US²_6|1.3MB/s|34%
+      - 🇺🇸 US²_7|1.1MB/s|0%
+      - 🇺🇸 US²_8|2.8MB/s
+      - 🇺🇸 US²_9|1.3MB/s|34%
       - 🇺🇸 US¹-CA⁰_1|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_20|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_21|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_22|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_23|2.6MB/s
-      - 🇺🇸 US¹-CA⁰_24|2.4MB/s
-      - 🇺🇸 US¹-CA⁰_25|3.7MB/s|5%
-      - 🇺🇸 US¹-CA⁰_26|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_27|2.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_28|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_29|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_2|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_30|1.3MB/s
-      - 🇺🇸 US¹-CA⁰_31|1.1MB/s|5%
-      - 🇺🇸 US¹-CA⁰_32|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_33|1.6MB/s
-      - 🇺🇸 US¹-CA⁰_34|1.9MB/s
-      - 🇺🇸 US¹-CA⁰_35|1.9MB/s|5%
-      - 🇺🇸 US¹-CA⁰_36|2.1MB/s
-      - 🇺🇸 US¹-CA⁰_37|1.1MB/s
-      - 🇺🇸 US¹-CA⁰_38|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_39|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_3|2.3MB/s
-      - 🇺🇸 US¹-CA⁰_40|3.5MB/s
-      - 🇺🇸 US¹-CA⁰_41|1.4MB/s
-      - 🇺🇸 US¹-CA⁰_42|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_43|1.5MB/s
-      - 🇺🇸 US¹-CA⁰_4|1.8MB/s
-      - 🇺🇸 US¹-CA⁰_5|2.9MB/s
-      - 🇺🇸 US¹-CA⁰_6|1.2MB/s
-      - 🇺🇸 US¹-CA⁰_7|4.8MB/s
-      - 🇺🇸 US¹-CA⁰_8|1.0MB/s
-      - 🇺🇸 US¹-CA⁰_9|2.2MB/s
-      - 🇺🇸 US¹_1|2.7MB/s
-      - 🇺🇸 US¹_2|3.2MB/s
-      - 🇺🇸 US¹_3|1.7MB/s
-      - 🇺🇸 US¹_4|1.0MB/s
-      - 🇺🇸 US¹_5|3.5MB/s|5%
-      - 🇺🇸 US¹_6|2.4MB/s
-      - 🇺🇸 US¹_7|1.5MB/s
-      - 🇺🇸 US⁻¹_1|2.0MB/s
-      - 🇺🇸 US⁻¹_2|1.0MB/s
-      - 🇺🇸 US⁻¹_3|4.7MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
-      - 🇺🇸 US⁻¹_6|2.5MB/s
-      - 🇺🇸 US⁻¹_7|3.5MB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
