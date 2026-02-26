@@ -5,797 +5,245 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CH²_1|2.1MB/s, server: 138.124.73.246, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: "3ca620a7ed5f3196" }, servername: sun6-21.userapi.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: CH²_2|2.3MB/s, server: 138.124.67.57, port: 443, type: vless, uuid: 8664a37d-40c9-47f0-8619-d9199651be2c, tls: true, skip-cert-verify: false, servername: nlcdn6.suio.me, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: CH²_3|3.4MB/s, server: 138.124.73.80, port: 8443, type: vless, uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476, tls: true, skip-cert-verify: false, reality-opts: {public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo, short-id: "3ca620a7ed5f3196" }, servername: sun6-21.userapi.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: CY²_1|3.5MB/s|0%, server: 213.176.19.56, port: 443, type: vless, uuid: bf4520ef-d665-4d02-b31b-53007d8b0aab, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: yBf3lX9epSJCxp9FxPHDmO-YOnSZKU6E_xLie74FFwU, short-id: "b79c1c7a8ffdee" }, servername: knix.fasssst.online, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: HU²_1|3.4MB/s|0%, server: 89.169.128.105, port: 8443, type: vless, uuid: 7825f2d1-cdc2-4186-9ad5-377afa912104, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg, short-id: "2715592069f36fe7" }, servername: yandex.ru, client-fingerprint: random, network: tcp, udp: true}
-  - {name: KZ²_1|2.4MB/s, server: kz1.sky-vault.top, port: 443, type: vless, uuid: 75548701-95d7-4a26-a78e-eea77851a782, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0, short-id: "ae64c9b46bff174a" }, servername: kz1.sky-vault.top, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: LT⁻¹_1|1.4MB/s, server: 46.32.187.37, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: SE¹_1|1.9MB/s, server: 45.153.230.145, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_1|3.1MB/s, server: 64.188.70.20, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇨🇦 DE¹-CA⁰_2|5.1MB/s, server: 94.159.101.93, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇨🇦 NL¹-CA⁰_1|2.8MB/s, server: 209.38.46.172, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE²_1|2.6MB/s, server: 51.250.75.178, port: 4443, type: vless, uuid: d1546b67-0d90-4763-b946-8766561798ae, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: EQszgdCF6wZeEc0GmXLZcj6dNedc-PF9WUu5MXsP8Uk, short-id: "4e2dc2056ed45d12" }, servername: yandex.ru, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇩🇪 DE²_2|1.6MB/s|42%, server: deu469.unboundworld.org, port: 8443, type: vless, uuid: cc9f7840-757a-430b-bddc-a73478bea434, tls: true, alpn: [h2], skip-cert-verify: false, servername: deu469.unboundworld.org, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-vless}, udp: true}
-  - {name: 🇩🇪 DE²_3|4.3MB/s|40%, server: 95.164.53.189, port: 443, type: vless, uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg, short-id: "701775cae5f3a793" }, servername: max.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 DE²_4|7.1MB/s|20%, server: mx2.tehrantolidi.ir, port: 80, type: vless, uuid: 7702ab8a-29ed-4a27-b3c7-4419d20e51e2, tls: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /site, headers: {Host: dcparvaz.global.ssl.fastly.net}}, udp: true}
-  - {name: 🇩🇪 DE¹_1|1.4MB/s, server: 143.20.213.225, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_2|1.7MB/s|5%, server: 193.42.60.235, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_3|2.6MB/s|5%, server: 94.159.109.190, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_4|3.2MB/s, server: 45.14.247.67, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_5|1.4MB/s, server: 143.20.213.49, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_6|3.4MB/s, server: 194.164.59.222, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_7|1.1MB/s, server: 167.71.60.191, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_8|3.3MB/s, server: 87.120.205.15, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇩🇪 DE¹_9|2.9MB/s|History, server: 20.218.137.249, port: 443, type: vless, uuid: jina, tls: true, alpn: [http/1.1], flow: xtls-rprx-vision, skip-cert-verify: false, servername: jina-20218137249-direct.yektanet.co, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇫🇷 FR¹_1|5.4MB/s|5%, server: 95.182.97.147, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_2|3.5MB/s, server: 188.130.207.158, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_3|1.9MB/s, server: 94.232.247.36, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_4|3.8MB/s|5%, server: 94.183.186.78, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_5|4.0MB/s, server: 31.59.120.141, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_6|1.0MB/s, server: 188.130.207.92, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇫🇷 FR¹_7|3.9MB/s|5%, server: 31.59.121.150, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇬🇧 GB²_1|3.5MB/s|0%, server: 193.36.118.210, port: 443, type: http, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 GB¹_1|2.5MB/s, server: 185.245.83.41, port: 31687, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /@ChinaPortGFW @ChinaPortGFW, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇭🇰 HK²_1|6.3MB/s|1%|History, server: 379a9be8-t6pb40-t7vzvm-1j0a4.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, auth: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, sni: 379a9be8-t6pb40-t7vzvm-1j0a4.hk2.hyhuawei.com, skip-cert-verify: false, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 HK¹-SG⁰_1|1.3MB/s, server: 167.71.198.82, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇭🇰 KR¹-HK⁰_1|3.1MB/s, server: 119.197.86.171, port: 50001, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇯🇵 JP²_1|3.4MB/s|47%, server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: ea4c3e12-c722-3e1c-ab8f-729c2bd50c95, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP²_2|1.5MB/s, server: 5.34.222.4, port: 43074, type: trojan, password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3, sni: iepl.jpz2.cat.bilibili.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP¹_1|5.2MB/s, server: 45.76.107.78, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇰🇷 KR²_1|25.4MB/s, server: 211.218.211.238, port: 3128, type: http, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 NL²_1|3.3MB/s|0%, server: node5.telegavpn.org, port: 443, type: vless, uuid: e3edc64f-b585-47b6-a8b4-6febc65a60b8, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA}, servername: node5.telegavpn.org, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL¹_1|2.8MB/s, server: 45.12.130.169, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_2|3.5MB/s, server: 193.228.193.126, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_3|2.6MB/s, server: 194.87.62.179, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_4|1.6MB/s, server: 5.144.176.149, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_5|3.4MB/s, server: 213.165.38.33, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_6|2.8MB/s, server: 103.97.88.133, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL¹_7|1.2MB/s|5%, server: 185.193.159.11, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇳🇱 NL⁻¹_1|2.1MB/s, server: 87.249.50.217, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇵🇱 PL²_1|1.7MB/s, server: 158.160.221.132, port: 8443, type: vless, uuid: 02db743b-c817-4359-9a44-6b4a5b4d9a96, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc, short-id: "887c0d72e771a934" }, servername: yandex.ru, client-fingerprint: random, network: tcp, udp: true}
-  - {name: 🇷🇺 NO²_1|1.4MB/s|44%-RU, server: 217.170.199.161, port: 443, type: vless, uuid: 3a174509-e13b-4385-8b84-3d060f4bce9f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw}, servername: azure.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇺 RU²_1|4.2MB/s, server: 51.250.26.75, port: 443, type: vless, uuid: b8a44195-0860-4312-a0df-dae178585a48, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc, short-id: "b8cf9578640a9edf" }, servername: eh.vk.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇺 RU²_2|3.1MB/s, server: 193.228.128.86, port: 52526, type: vless, uuid: 793202a4-e233-42ee-9f24-67afecd6c28a, tls: false, encryption: mlkem768x25519plus.native.0rtt.fKRO7RUKNFFtL7xSwUWvsQ46onZ_VQLGNt8xHES-JTM, skip-cert-verify: false, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇺 RU²_3|5.0MB/s, server: 109.73.195.10, port: 8888, type: http, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 RU²_4|3.5MB/s, server: 109.120.182.27, port: 443, type: vless, uuid: 854bc0e4-fd37-4d26-b7a3-a744688dcfc4, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ, short-id: "0f917152a871e9c0" }, servername: maviks.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇷🇺 RU²_5|4.1MB/s, server: 51.250.86.102, port: 443, type: vless, uuid: 53b2c46d-bc0a-4696-9d87-6bfa77a60d1f, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg, short-id: "cd57a927f6b72d81" }, servername: ads.x5.ru, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇷🇺 RU²_6|3.9MB/s, server: 89.208.85.78, port: 18080, type: http, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG²_1|3.8MB/s|0%, server: 18.117.46.60, port: 3128, type: http, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG²_2|1.6MB/s, server: 135.84.74.44, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇸🇬 SG²_3|1.8MB/s, server: 185.243.112.61, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇸🇬 SG²_4|1.4MB/s|1%, server: 199.34.228.41, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇸🇬 US¹-SG⁰_1|5.4MB/s, server: 104.16.9.24, port: 80, type: vless, uuid: 2ac6e527-6410-48ce-b9ba-cc8135ee2a3b, tls: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: fragrant-recipe-09f4.wopecuyubak61.workers.dev}}, udp: true}
-  - {name: 🇺🇸 US²_1|3.4MB/s|5%, server: 54.89.108.25, port: 80, type: http, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US²_2|1.6MB/s|20%-RU, server: de.voxyvpn.ru, port: 8443, type: vless, uuid: 9ada8158-d7be-4ee3-a0ae-ff185efc08d9, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: l78iryfyBl_JIg0KXgb0VQ3zxfhtkD1odwO09qs9SH4, short-id: "deadbeef" }, servername: apple.com, client-fingerprint: random, network: tcp, udp: true}
-  - {name: 🇺🇸 US²_3|2.0MB/s, server: 3.89.33.1, port: 1080, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US²_4|1.2MB/s|1%, server: 38.55.133.127, port: 58367, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US²_5|1.4MB/s|0%, server: 154.64.235.206, port: 58367, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US¹_10|1.5MB/s|5%, server: 135.84.67.41, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, alpn: [h2, http/1.1], skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /@ChinaPortGFW, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_11|5.7MB/s|5%, server: 160.153.1.51, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_12|3.5MB/s, server: 135.84.75.139, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_13|3.8MB/s, server: 160.153.137.184, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_14|3.4MB/s|0%, server: 199.34.228.160, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_15|1.1MB/s, server: 174.138.48.29, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_16|1.3MB/s, server: 135.84.73.9, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_17|3.5MB/s|5%, server: 135.84.64.157, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_18|3.4MB/s|5%, server: 217.163.76.254, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_19|5.3MB/s|5%, server: 160.153.1.122, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_1|4.2MB/s, server: 135.84.67.41, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /@ChinaPortGFW, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_20|3.3MB/s, server: 198.62.62.122, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_21|3.6MB/s|5%, server: 135.84.67.72, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, alpn: [h2, http/1.1], skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_22|1.7MB/s, server: 217.163.76.46, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_2|1.0MB/s, server: 135.84.74.43, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_3|1.4MB/s, server: 80.209.242.156, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_4|1.5MB/s|5%, server: 135.84.64.52, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_5|3.4MB/s|5%, server: 160.153.1.198, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_6|5.0MB/s, server: 199.107.164.149, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_7|2.5MB/s, server: 135.84.73.34, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_8|5.0MB/s, server: 135.84.64.111, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US¹_9|1.5MB/s|5%, server: 160.153.1.211, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_1|2.9MB/s, server: 172.66.47.15, port: 443, type: vless, uuid: 51905684-6f28-49a9-bb80-00cf62bbcb08, tls: true, alpn: [http/1.1], skip-cert-verify: false, servername: 51905684-6F28-49A9-Bb80-00CF62BBCb08.pAGES.DEV, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoicGpHbkl4bDhnYTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: 51905684-6f28-49a9-bb80-00cf62bbcb08.pages.dev}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_2|5.3MB/s, server: 198.71.233.55, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_3|1.1MB/s, server: 104.167.197.86, port: 8443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: false, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳 @WangCai2", headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_4|1.0MB/s, server: 172.66.47.15, port: 443, type: vless, uuid: 2a667767-995c-4892-9719-f52c3db2b0f2, tls: true, alpn: [http/1.1], skip-cert-verify: false, servername: sANyUuU.paGeS.dEV, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoiM3Z5bG9tM0Z6VGlzVnJ5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==, headers: {Host: sanyuuu.pages.dev}}, udp: true}
-  - {name: 🇺🇸 US⁻¹_5|3.5MB/s, server: 172.66.47.155, port: 443, type: vless, uuid: 2a667767-995c-4892-9719-f52c3db2b0f2, tls: true, alpn: [http/1.1], skip-cert-verify: false, servername: sANYuuU.pAGeS.DeV, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoibkdXdEQ2dHZyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==, headers: {Host: sanyuuu.pages.dev}}, udp: true}
+  - {name: ID²_1|2.7MB/s|History, server: a9964e2f-t5gv40-te0r6o-1r7vv.id.oshuawei.com, port: 32233, type: http, username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9, password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: IT⁻¹_1|1.3MB/s, server: 85.192.48.76, port: 443, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇨🇳 TW²_1|5.2MB/s, server: 35.234.17.221, port: 8080, type: http, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TW¹_1|8.2MB/s|GM, server: 114.33.57.170, port: 443, type: vless, uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e, tls: true, skip-cert-verify: false, servername: 63.hhhhh.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /114.33.57.170:443, headers: {Host: 63.hhhhh.eu.org}}, udp: true}
+  - {name: 🇨🇳 TW¹_2|5.6MB/s|GM, server: 220.128.110.108, port: 43, type: vless, uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e, tls: true, skip-cert-verify: false, servername: 63.hhhhh.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /220.128.110.108:43, headers: {Host: 63.hhhhh.eu.org}}, udp: true}
+  - {name: 🇨🇳 TW⁻¹_1|1.8MB/s, server: 103.118.40.152, port: 8443, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇩🇪 DE²_1|7.2MB/s|8%|History, server: 4d833d10-t9zts0-tar8u7-1fy29.de.oshuawei.com, port: 443, type: http, username: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, password: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 DE²_2|5.9MB/s|0%, server: de.appav.net, port: 2083, type: vless, uuid: c501c66b-c6c2-456b-b604-80393b83d67f, tls: true, skip-cert-verify: false, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: apple.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}, udp: true}
+  - {name: 🇩🇪 DE²_3|2.6MB/s|40%, server: 80.253.251.122, port: 13686, type: vless, uuid: 8f09e644-7208-4f38-ac2f-db6d23cc647f, tls: true, skip-cert-verify: false, reality-opts: {public-key: E2rSTxjCs8arrVzkG0htKf5OQt6wyoIsvwnsvkmKanQ, short-id: "fd38dd693669e822" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 HK²_1|1.0MB/s|0%, server: cedba343-t94cg0-t9lm1q-1p1b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: "🇭🇰 HK²_2|2.6MB/s|0%]", server: bd032d72-tb4kg0-tcjl4y-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: "🇭🇰 HK²_3|1.4MB/s|0%|History]", server: 6d026f97-t8nog0-taz53d-1j0y6.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇯🇵 JP²_1|5.7MB/s, server: 5c18db02-tb4kg0-tcjl4y-1qzi1.cm4.oshuawei.com, port: 27233, type: http, username: 8f99107c-f091-11ee-9935-f23c9164ca5d, password: 8f99107c-f091-11ee-9935-f23c9164ca5d, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP²_2|10.2MB/s|0%|History, server: 20.210.39.153, port: 8561, type: http, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 KR⁻¹_1|1.3MB/s, server: 14.37.103.127, port: 10903, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇲🇾 MY²_1|2.2MB/s, server: a8082491-tb4kg0-tcjfxp-1p1b.my.oshuawei.com, port: 31233, type: http, username: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 RU²_1|1.8MB/s, server: 95.163.182.131, port: 7443, type: vless, uuid: c501c66b-c6c2-456b-b604-80393b83d67f, tls: true, skip-cert-verify: false, reality-opts: {public-key: 8hdXyv-YBQIaA2xgOfT2nhfna5y5s19qbZD-SpMZ6hg, short-id: "dd700a46e27751d1" }, servername: 5post-gate.x5.ru, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}, udp: true}
+  - {name: 🇷🇺 RU²_2|1.9MB/s, server: 5.188.224.116, port: 2083, type: vless, uuid: c501c66b-c6c2-456b-b604-80393b83d67f, tls: true, skip-cert-verify: false, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: ir.ozone.ru, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}, udp: true}
+  - {name: 🇷🇺 RU²_3|1.6MB/s, server: edgemskt2.appav.online, port: 2083, type: vless, uuid: c501c66b-c6c2-456b-b604-80393b83d67f, tls: true, skip-cert-verify: false, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: ir.ozone.ru, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}, udp: true}
+  - {name: 🇷🇺 RU²_4|1.5MB/s, server: 5.188.224.137, port: 2083, type: vless, uuid: c501c66b-c6c2-456b-b604-80393b83d67f, tls: true, skip-cert-verify: false, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: ir.ozone.ru, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}, udp: true}
+  - {name: 🇸🇬 KR¹-SG⁰_1|2.6MB/s, server: 121.130.41.237, port: 18796, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇸🇬 KR¹-SG⁰_2|1.2MB/s, server: 183.104.233.94, port: 11681, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇸🇬 KR¹-SG⁰_3|2.9MB/s, server: 59.29.89.197, port: 18765, type: vless, uuid: Telegram🇨🇳 @WangCai2, tls: true, skip-cert-verify: false, servername: tn1rr.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /sg-lnd, headers: {Host: tn1rr.qzz.io}}, udp: true}
+  - {name: 🇺🇸 US²_1|1.0MB/s|2%, server: 154.64.232.9, port: 58367, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US²_2|3.1MB/s|0%, server: free-us.moscow-neversleep.digital, port: 443, type: vless, uuid: 45344840-b049-4957-a0f6-7b3df22715a2, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M, short-id: "1ed136481e0ede74" }, servername: free-us.moscow-neversleep.digital, client-fingerprint: chrome, network: tcp, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -818,100 +266,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CH²_1|2.1MB/s
-      - CH²_2|2.3MB/s
-      - CH²_3|3.4MB/s
-      - CY²_1|3.5MB/s|0%
-      - HU²_1|3.4MB/s|0%
-      - KZ²_1|2.4MB/s
-      - LT⁻¹_1|1.4MB/s
-      - SE¹_1|1.9MB/s
-      - 🇨🇦 DE¹-CA⁰_1|3.1MB/s
-      - 🇨🇦 DE¹-CA⁰_2|5.1MB/s
-      - 🇨🇦 NL¹-CA⁰_1|2.8MB/s
-      - 🇩🇪 DE²_1|2.6MB/s
-      - 🇩🇪 DE²_2|1.6MB/s|42%
-      - 🇩🇪 DE²_3|4.3MB/s|40%
-      - 🇩🇪 DE²_4|7.1MB/s|20%
-      - 🇩🇪 DE¹_1|1.4MB/s
-      - 🇩🇪 DE¹_2|1.7MB/s|5%
-      - 🇩🇪 DE¹_3|2.6MB/s|5%
-      - 🇩🇪 DE¹_4|3.2MB/s
-      - 🇩🇪 DE¹_5|1.4MB/s
-      - 🇩🇪 DE¹_6|3.4MB/s
-      - 🇩🇪 DE¹_7|1.1MB/s
-      - 🇩🇪 DE¹_8|3.3MB/s
-      - 🇩🇪 DE¹_9|2.9MB/s|History
-      - 🇫🇷 FR¹_1|5.4MB/s|5%
-      - 🇫🇷 FR¹_2|3.5MB/s
-      - 🇫🇷 FR¹_3|1.9MB/s
-      - 🇫🇷 FR¹_4|3.8MB/s|5%
-      - 🇫🇷 FR¹_5|4.0MB/s
-      - 🇫🇷 FR¹_6|1.0MB/s
-      - 🇫🇷 FR¹_7|3.9MB/s|5%
-      - 🇬🇧 GB²_1|3.5MB/s|0%
-      - 🇬🇧 GB¹_1|2.5MB/s
-      - 🇭🇰 HK²_1|6.3MB/s|1%|History
-      - 🇭🇰 HK¹-SG⁰_1|1.3MB/s
-      - 🇭🇰 KR¹-HK⁰_1|3.1MB/s
-      - 🇯🇵 JP²_1|3.4MB/s|47%
-      - 🇯🇵 JP²_2|1.5MB/s
-      - 🇯🇵 JP¹_1|5.2MB/s
-      - 🇰🇷 KR²_1|25.4MB/s
-      - 🇳🇱 NL²_1|3.3MB/s|0%
-      - 🇳🇱 NL¹_1|2.8MB/s
-      - 🇳🇱 NL¹_2|3.5MB/s
-      - 🇳🇱 NL¹_3|2.6MB/s
-      - 🇳🇱 NL¹_4|1.6MB/s
-      - 🇳🇱 NL¹_5|3.4MB/s
-      - 🇳🇱 NL¹_6|2.8MB/s
-      - 🇳🇱 NL¹_7|1.2MB/s|5%
-      - 🇳🇱 NL⁻¹_1|2.1MB/s
-      - 🇵🇱 PL²_1|1.7MB/s
-      - 🇷🇺 NO²_1|1.4MB/s|44%-RU
-      - 🇷🇺 RU²_1|4.2MB/s
-      - 🇷🇺 RU²_2|3.1MB/s
-      - 🇷🇺 RU²_3|5.0MB/s
-      - 🇷🇺 RU²_4|3.5MB/s
-      - 🇷🇺 RU²_5|4.1MB/s
-      - 🇷🇺 RU²_6|3.9MB/s
-      - 🇸🇬 SG²_1|3.8MB/s|0%
-      - 🇸🇬 SG²_2|1.6MB/s
-      - 🇸🇬 SG²_3|1.8MB/s
-      - 🇸🇬 SG²_4|1.4MB/s|1%
-      - 🇸🇬 US¹-SG⁰_1|5.4MB/s
-      - 🇺🇸 US²_1|3.4MB/s|5%
-      - 🇺🇸 US²_2|1.6MB/s|20%-RU
-      - 🇺🇸 US²_3|2.0MB/s
-      - 🇺🇸 US²_4|1.2MB/s|1%
-      - 🇺🇸 US²_5|1.4MB/s|0%
-      - 🇺🇸 US¹_10|1.5MB/s|5%
-      - 🇺🇸 US¹_11|5.7MB/s|5%
-      - 🇺🇸 US¹_12|3.5MB/s
-      - 🇺🇸 US¹_13|3.8MB/s
-      - 🇺🇸 US¹_14|3.4MB/s|0%
-      - 🇺🇸 US¹_15|1.1MB/s
-      - 🇺🇸 US¹_16|1.3MB/s
-      - 🇺🇸 US¹_17|3.5MB/s|5%
-      - 🇺🇸 US¹_18|3.4MB/s|5%
-      - 🇺🇸 US¹_19|5.3MB/s|5%
-      - 🇺🇸 US¹_1|4.2MB/s
-      - 🇺🇸 US¹_20|3.3MB/s
-      - 🇺🇸 US¹_21|3.6MB/s|5%
-      - 🇺🇸 US¹_22|1.7MB/s
-      - 🇺🇸 US¹_2|1.0MB/s
-      - 🇺🇸 US¹_3|1.4MB/s
-      - 🇺🇸 US¹_4|1.5MB/s|5%
-      - 🇺🇸 US¹_5|3.4MB/s|5%
-      - 🇺🇸 US¹_6|5.0MB/s
-      - 🇺🇸 US¹_7|2.5MB/s
-      - 🇺🇸 US¹_8|5.0MB/s
-      - 🇺🇸 US¹_9|1.5MB/s|5%
-      - 🇺🇸 US⁻¹_1|2.9MB/s
-      - 🇺🇸 US⁻¹_2|5.3MB/s
-      - 🇺🇸 US⁻¹_3|1.1MB/s
-      - 🇺🇸 US⁻¹_4|1.0MB/s
-      - 🇺🇸 US⁻¹_5|3.5MB/s
+      - ID²_1|2.7MB/s|History
+      - IT⁻¹_1|1.3MB/s
+      - 🇨🇳 TW²_1|5.2MB/s
+      - 🇨🇳 TW¹_1|8.2MB/s|GM
+      - 🇨🇳 TW¹_2|5.6MB/s|GM
+      - 🇨🇳 TW⁻¹_1|1.8MB/s
+      - 🇩🇪 DE²_1|7.2MB/s|8%|History
+      - 🇩🇪 DE²_2|5.9MB/s|0%
+      - 🇩🇪 DE²_3|2.6MB/s|40%
+      - 🇭🇰 HK²_1|1.0MB/s|0%
+      - 🇭🇰 HK²_2|2.6MB/s|0%]
+      - 🇭🇰 HK²_3|1.4MB/s|0%|History]
+      - 🇯🇵 JP²_1|5.7MB/s
+      - 🇯🇵 JP²_2|10.2MB/s|0%|History
+      - 🇰🇷 KR⁻¹_1|1.3MB/s
+      - 🇲🇾 MY²_1|2.2MB/s
+      - 🇷🇺 RU²_1|1.8MB/s
+      - 🇷🇺 RU²_2|1.9MB/s
+      - 🇷🇺 RU²_3|1.6MB/s
+      - 🇷🇺 RU²_4|1.5MB/s
+      - 🇸🇬 KR¹-SG⁰_1|2.6MB/s
+      - 🇸🇬 KR¹-SG⁰_2|1.2MB/s
+      - 🇸🇬 KR¹-SG⁰_3|2.9MB/s
+      - 🇺🇸 US²_1|1.0MB/s|2%
+      - 🇺🇸 US²_2|3.1MB/s|0%
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
