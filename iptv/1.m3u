@@ -94,7 +94,7 @@ rtsp://123.147.113.84:554/04000001/01000000004000000000000000000378?AuthInfo=xxx
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000222?AuthInfo=xxx&userid=
 #EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/海南卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000385?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,海南卫视
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000385?AuthInfo=xxx&userid=
-#EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/陕西卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000189?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,陕西卫视
+#EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/陕西卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000445?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,陕西卫视
 rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000445?AuthInfo=xxx&userid=
 #EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/东南卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000379?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,东南卫视
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000379?AuthInfo=xxx&userid=
@@ -102,7 +102,7 @@ rtsp://123.147.113.84:554/04000001/01000000004000000000000000000379?AuthInfo=xxx
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000390?AuthInfo=xxx&userid=
 #EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/深圳卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000226?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,深圳卫视
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000226?AuthInfo=xxx&userid=
-#EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/内蒙古卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000180?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,内蒙古卫视
+#EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/内蒙古卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000444?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,内蒙古卫视
 rtsp://123.147.112.17:8089/04000001/01000000004000000000000000000444?AuthInfo=xxx&userid=
 #EXTINF:-1 tvg-logo="https://mzrnet.github.io/iptv/logo/IPTV/山东卫视.png"group-title="卫视" catchup="default" catchup-source="rtsp://123.147.113.84:554/04000001/01000000004000000000000000000261?playseek=${(b)yyyyMMddHHmmss|Etc/GMT}-${(e)yyyyMMddHHmmss|Etc/GMT}" catchup-days="7" ,山东卫视
 rtsp://123.147.113.84:554/04000001/01000000004000000000000000000261?AuthInfo=xxx&userid=
