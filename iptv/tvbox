@@ -1,0 +1,32 @@
+{
+  "urls": [
+    {
+      "url": " http://ok213.top/tv",
+      "name": "OK影视内部接口"
+    },
+    {
+      "url": " http://ok213.top/ok",
+      "name": "OK影视公开接口"
+    },
+    {
+      "url": " https://毒盒.com/tv/",
+      "name": "毒盒"
+    },
+    {
+      "url": "https://宝盒接口.top",
+      "name": "宝盒接口"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
+      "name": "宝盒VIP"
+    },
+    {
+      "url": "http://116。196。116。76/stv",
+      "name": "星河"
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "name": "寳盒📚在线"
+    }
+  ]
+}
