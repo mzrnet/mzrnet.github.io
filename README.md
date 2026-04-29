@@ -6,6 +6,11 @@
 https://mzrnet.github.io/iptv/1.m3u
 
 
+影视接口：
+
+https://mzrnet.github.io/iptv/tvbox.json
+
+
 自用Clash地址:
 
 https://mzrnet.github.io/clash/1.yaml
