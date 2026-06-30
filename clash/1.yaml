@@ -1,76 +1,1710 @@
 proxies:
-  - {"alpn":["h2"],"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇷🇺RU²_1|4.2MB/s|GPT⁺|YT","network":"tcp","port":443,"reality-opts":{"public-key":"LHhtSJr9oLLh3WSal9WyWzghtZH-xyH-5DVq4gVsaHs","short-id":"5527ef4b"},"server":"91.228.10.232","tls":true,"type":"vless","udp":true,"uuid":"82b7a8c0-a9d9-4a6e-b0a2-8eb26e73db59","xudp":true,"servername":"cdn.jsdelivr.net"}
-  - {"client-fingerprint":"chrome","name":"🇺🇸US²_1|4.5MB/s|0%|GPT⁺","network":"ws","port":443,"server":"172.64.153.6","tls":true,"type":"vless","udp":true,"uuid":"bb801414-f94a-4347-b849-0aa98bdf2314","ws-opts":{"headers":{"Host":"us.wangpan.shop","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36"},"path":"/mianfeicf"},"xudp":true,"servername":"us.wangpan.shop"}
-  - {"fingerprint":"","name":"🇸🇬SG²_1|6.4MB/s|3%|GPT⁺|YT","password":"9e0f72bb-7ad6-4383-994a-497569a94d74","port":60003,"server":"jpaws.ccwink.photos","skip-cert-verify":true,"sni":"baidu.com","type":"anytls","udp":true,"username":"9e0f72bb-7ad6-4383-994a-497569a94d74"}
-  - {"mport":"35000-39000","name":"🇪🇸ES²_1|4.8MB/s|3%|GPT⁺|YT-US|Succeed","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":37423,"ports":"35000-39000","server":"143.47.56.230","skip-cert-verify":true,"sni":"www.lamer.com.hk","type":"hysteria2","udp":true}
-  - {"cipher":"chacha20-ietf-poly1305","name":"🇩🇪DE²_1|5.9MB/s|GPT⁺|YT","password":"PWpjPo3tqhPN4yRZ","port":20001,"server":"8.209.74.72","type":"ss","udp":true}
-  - {"down":"","fingerprint":"","name":"🇫🇷FR²_1|5.1MB/s|GPT⁺|YT","obfs":"","obfs-password":"","password":"dongtaiwang.com","port":40022,"server":"163.172.113.118","skip-cert-verify":true,"sni":"www.microsoft.com","type":"hysteria2","up":""}
-  - {"down":"","fingerprint":"","name":"🇸🇬SG²_2|10.3MB/s|3%|GPT⁺|YT","obfs":"","obfs-password":"","password":"qQe1z5kU8kN6SlKnDt9Ru3Qp","port":443,"server":"vpn-sg-001.fastervpn.world","skip-cert-verify":true,"sni":"vpn-sg-001.fastervpn.world","type":"hysteria2","up":""}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇧🇬BG²_1|2.6MB/s|GPT⁺|YT-RU","network":"tcp","port":443,"reality-opts":{"public-key":"rhL4R8tBOs5UnuwptbdegPycyuxGn-wvurb4eRYNSgY","short-id":"596e1781a03304"},"server":"176.108.247.44","tls":true,"type":"vless","udp":true,"uuid":"0fa13297-7784-48e1-9c19-308c8b440edb","xudp":true,"servername":"dk21.strelkavpn.com"}
-  - {"fingerprint":"","name":"🇺🇸US²_2|5.5MB/s|GPT⁺|YT","password":"c72dee63-0607-424f-8f37-e26070451f3e","port":23328,"server":"c62da64c-8152-0ace-d9a2-e44608321546.relay.riolu01.link","skip-cert-verify":true,"sni":"moe233-riolu-7f0c47de-1ed5-2da6-22ed-921e51992120.hnair.com","type":"anytls","udp":true,"username":"c72dee63-0607-424f-8f37-e26070451f3e"}
-  - {"client-fingerprint":"chrome","name":"🇺🇸US¹⁺_1|4.6MB/s|8%|GPT⁺|YT","network":"ws","port":443,"server":"store.ubi.com","tls":true,"type":"vless","udp":true,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","ws-opts":{"headers":{"Host":"3-7gj.pages.dev","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"},"path":"/"},"xudp":true,"servername":"3-7gj.pages.dev"}
-  - {"client-fingerprint":"chrome","encryption":"none","name":"🇳🇱NL²_1|2.7MB/s|4%|GPT⁺|YT","network":"xhttp","port":443,"reality-opts":{"public-key":"PyV8IrAs0LkE2d_DdjvdCtpWG7MZyUKsYkb52GUmuDM","short-id":"67"},"server":"91.84.117.29","tls":true,"type":"vless","udp":true,"uuid":"a4037b4c-6a9d-528c-9efb-7d801cce8adb","xudp":true,"servername":"vk.com"}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_3|5.8MB/s|0%|GPT⁺|YT","network":"tcp","port":45958,"reality-opts":{"public-key":"SyLiDh3wNWgX6w2r-NsHMb0QtSDW86C91zJwkP7GGSg","short-id":"bc6e"},"server":"64.186.231.24","tls":true,"type":"vless","udp":true,"uuid":"82f06bdb-529c-4724-d6d2-a612ea5fdaaf","xudp":true,"servername":"animal.iocty.com"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_2|4.2MB/s|0%|GPT⁺|YT","network":"tcp","port":7443,"reality-opts":{"public-key":"5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI","short-id":"d82fb387"},"server":"107.161.175.228","tls":true,"type":"vless","udp":true,"uuid":"caa3af29-3b04-4099-9772-c64a1b7cca34","xudp":true,"servername":"chat.deepseek.com"}
-  - {"client-fingerprint":"firefox","encryption":"none","grpc-opts":{"grpc-service-name":"grpc"},"name":"🇷🇺RU²_2|4.7MB/s|YT","network":"grpc","port":5432,"reality-opts":{"public-key":"WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8","short-id":"489da765"},"server":"ru150.tcpnet.fun","tls":true,"type":"vless","udp":true,"uuid":"f8c5b018-f51a-4137-be8a-50a451630589","xudp":true,"servername":"www.samsung.com"}
-  - {"name":"🇭🇰HK²_1|2.3MB/s|33%|YT-US","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":24800,"ports":"22000-27000","server":"hk1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"hk1.xiaoliyu.cyou","tfo":false,"type":"hysteria2"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_3|3.0MB/s|0%|GPT⁺|YT-RU","network":"tcp","port":443,"reality-opts":{"public-key":"vF5uroNCDLwB-vfJdypfJra5_vcBHL1odPDfCyBRegk","short-id":"a4491113bf83f6c0"},"server":"dewrp.beestvpn.ru","tls":true,"type":"vless","udp":true,"uuid":"4f51ca84-43ea-4087-b8a2-938e0ccbe27a","xudp":true,"servername":"dewrp.beestvpn.ru"}
-  - {"client-fingerprint":"chrome","name":"🇳🇱NL⁻¹_1|3.9MB/s|YT","network":"ws","password":"trojan","port":8444,"server":"152.53.200.185","skip-cert-verify":false,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"User-Agent":"Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"},"path":"/"}}
-  - {"alterId":"0","cipher":"auto","name":"🇺🇸US²_4|2.4MB/s|0%|GPT⁺|YT","network":"ws","port":3438,"server":"216.167.32.53","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"a77d8ea6-1e1b-4825-a71c-41262f19e3fd","ws-opts":{"headers":{},"path":"/"},"xudp":true}
-  - {"alpn":["http/1.1"],"client-fingerprint":"chrome","encryption":"none","name":"🇲🇾MY¹-SG⁰_1|2.5MB/s|8%|GPT⁺|YT","network":"ws","port":37908,"server":"23.27.28.204","tls":true,"type":"vless","udp":true,"uuid":"26524cce-d514-4014-a426-365fb266a14d","ws-opts":{"headers":{"Host":"snippet.danfeng.rr.kg","User-Agent":"Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36"},"path":"/danfeng"},"xudp":true,"servername":"snippet.danfeng.rr.kg"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇵🇱PL²_1|4.3MB/s|0%|GPT⁺|YT-RU","network":"tcp","port":59422,"reality-opts":{"public-key":"Px_ZZaayDydcempYZxuouTf_M4lSFUYaciHWP5-_aFY","short-id":"aabbccdd"},"server":"pol.odavpn.online","tls":true,"type":"vless","udp":true,"uuid":"c220f447-badb-4120-aa3c-8c10f0a6dcb0","xudp":true,"servername":"ya.ru"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇨🇾CY²_1|2.1MB/s|GPT⁺|YT-RU","network":"tcp","port":443,"reality-opts":{"public-key":"1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ","short-id":"8bd29483ded126b4"},"server":"buda-meow.nethcloud.top","tls":true,"type":"vless","udp":true,"uuid":"951c7521-7158-4978-b82c-2736d4f21044","xudp":true,"servername":"wikihow.com"}
-  - {"fingerprint":"","name":"🇫🇷FR²_2|2.7MB/s|33%|GPT⁺|YT-US","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":4430,"server":"fr1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"fr1.xiaoliyu.cyou","type":"anytls","udp":true,"username":"a4c1b618-024a-42d4-b78a-1c25c337a484"}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_5|3.3MB/s|GPT⁺|YT","network":"tcp","port":44160,"reality-opts":{"public-key":"MZmvWg0QXLC_4I_uBNgv8n1LtAK4tR2LmJ9TrCt60TE","short-id":"c563bb"},"server":"tcp.us-east-1.clawcloudrun.com","tls":true,"type":"vless","udp":true,"uuid":"348bd26a-0ce2-4950-80f5-17ed18034cb9","xudp":true,"servername":"catalog.gamepass.com"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_4|4.3MB/s|24%|GPT⁺|YT","network":"tcp","port":7443,"reality-opts":{"public-key":"5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI","short-id":"be0ce047"},"server":"152.53.60.239","tls":true,"type":"vless","udp":true,"uuid":"248d1886-8ae0-4079-a281-4d21bdb74ba4","xudp":true,"servername":"chat.deepseek.com"}
-  - {"alpn":["http%2F1.1"],"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇵🇱PL²_2|4.7MB/s|3%|GPT⁺|YT-RU","network":"tcp","port":52006,"server":"germ-dop.anti-vpn.ru","tls":true,"type":"vless","udp":true,"uuid":"75807638-6f19-2710-ae08-38492ee85c88","xudp":true,"servername":"germ-dop.anti-vpn.ru"}
-  - {"down":"","fingerprint":"","name":"🇭🇰HK²_2|2.1MB/s|33%|YT-US","obfs":"","obfs-password":"","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":23990,"server":"hk1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"hk1.xiaoliyu.cyou","type":"hysteria2","up":""}
-  - {"client-fingerprint":"edge","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_6|3.3MB/s|0%|GPT⁺|YT-GB","network":"tcp","port":443,"reality-opts":{"public-key":"UVteEq1YeqUTm7WIGPDUwQ3pegxSSWR9CBCXglsVLAU","short-id":"7a3f9e2b1c8d4f6a"},"server":"144.31.53.162","tls":true,"type":"vless","udp":true,"uuid":"2818b4d1-86f2-4cb5-a522-672d1cea7f08","xudp":true,"servername":"fl-cdn.ru"}
-  - {"alterId":"2","cipher":"auto","name":"🇺🇸US²_7|4.1MB/s|54%|GPT⁺|YT","network":"tcp","port":30808,"server":"v8.hdacd.com","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","xudp":true}
-  - {"client-fingerprint":"random","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇸🇬SG²_3|3.7MB/s|YT-RU","network":"tcp","port":443,"reality-opts":{"public-key":"_96LOMBxXa644t-cEUNASqEGNrgbwpwP8EKNo688lGo","short-id":"654745868796"},"server":"176.53.160.219","tls":true,"type":"vless","udp":true,"uuid":"8ae7b082-8ada-4352-a66e-c0ab7e48d3ed","xudp":true,"servername":"bespoked.ru"}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇩🇪DE²_2|5.4MB/s|0%|GPT⁺|YT-US","network":"tcp","port":13515,"reality-opts":{"public-key":"ZHIDeJBTDPAWzQw3FnHjkFx3tURUX4j-pd9ZR7AuDXc","short-id":"2cbed09257"},"server":"45.143.128.171","tls":true,"type":"vless","udp":true,"uuid":"64154ce9-fb80-4b2d-b5f0-be6c573db18b","xudp":true,"servername":"www.cloudflare.com"}
-  - {"client-fingerprint":"chrome","name":"🇳🇱NL⁻¹_2|2.9MB/s|YT","network":"ws","password":"trojan","port":8444,"server":"152.53.105.238","skip-cert-verify":false,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"User-Agent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"},"path":"/"}}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_8|3.6MB/s|0%|GPT⁺|YT","network":"tcp","port":26432,"reality-opts":{"public-key":"opy6DExNZ8ikbMcX9l11kyxBOYFb6WmkC6R4nrRirUA","short-id":"facce7"},"server":"desivps.333009.xyz","tls":true,"type":"vless","udp":true,"uuid":"3420808a-9251-4e96-8376-ed505492ae28","xudp":true,"servername":"aws.amazon.com"}
-  - {"client-fingerprint":"chrome","encryption":"none","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_5|4.0MB/s|0%|GPT⁺|YT","network":"tcp","port":8443,"reality-opts":{"public-key":"upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo","short-id":"3ca620a7ed5f3196"},"server":"37.218.247.35","tls":true,"type":"vless","udp":true,"uuid":"f4fec1b0-a67e-4967-b9ea-0bd832b57a4d","xudp":true,"servername":"sun6-21.userapi.com"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_9|4.6MB/s|0%|GPT⁺","network":"tcp","port":443,"reality-opts":{"public-key":"DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY","short-id":"4fa44664f6a566d3"},"server":"nl.milas.click","tls":true,"type":"vless","udp":true,"uuid":"913c6074-a747-492b-a7e9-5abfcad6369d","xudp":true,"servername":"nl.milas.click"}
-  - {"client-fingerprint":"chrome","encryption":"none","name":"🇩🇪DE²_3|4.4MB/s|GPT⁺|YT-US","network":"ws","port":443,"server":"18.245.54.3","tls":true,"type":"vless","udp":true,"uuid":"97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2","ws-opts":{"headers":{"Host":"d2241b25w3zftf.cloudfront.net","User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"},"path":"/"},"xudp":true,"servername":"d2241b25w3zftf.cloudfront.net"}
-  - {"alterId":"0","cipher":"auto","name":"🇺🇸US²_10|3.1MB/s|0%|GPT⁺|YT","network":"ws","port":3438,"server":"216.167.100.199","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"6abb2183-1342-49f1-aeec-84d09954aecd","ws-opts":{"headers":{},"path":"/"},"xudp":true}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇷🇺RU²_3|3.7MB/s|25%|GPT⁺|YT","network":"tcp","port":8443,"reality-opts":{"public-key":"A7rUZxACVEZDLxE5yl0bwplc6HMl2XBDasR9X8hy-CA","short-id":"ca6b5dd0"},"server":"us2.gosocial.today","tls":true,"type":"vless","udp":true,"uuid":"337582a5-3705-11f1-953f-dc08fb041e0d","xudp":true,"servername":"us2.gosocial.today"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_11|3.1MB/s|YT-RU","network":"tcp","port":9443,"reality-opts":{"public-key":"wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg","short-id":"2344766a270a6298"},"server":"72.56.8.156","tls":true,"type":"vless","udp":true,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","xudp":true,"servername":"yahoo.com"}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇦🇹AT²_1|3.8MB/s|29%|GPT⁺|YT-DE","network":"tcp","port":7443,"reality-opts":{"public-key":"5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI","short-id":"be0ce047"},"server":"152.53.236.181","tls":true,"type":"vless","udp":true,"uuid":"4ab1088a-9f8a-4fcc-8805-8353a8b3cf44","xudp":true,"servername":"chat.deepseek.com"}
-  - {"down":"","fingerprint":"","name":"🇯🇵JP²_1|2.1MB/s|0%|GPT⁺|YT","obfs":"","obfs-password":"","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":35000,"server":"103.62.49.76","skip-cert-verify":true,"sni":"","type":"hysteria2","up":"","disable-sni":true}
-  - {"mport":"35000-39000","name":"🇧🇷BR²_1|2.9MB/s|3%|GPT⁺|YT|Succeed","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":38845,"ports":"35000-39000","server":"167.234.251.78","skip-cert-verify":true,"sni":"www.apple.com","type":"hysteria2","udp":true}
-  - {"client-fingerprint":"chrome","name":"🇺🇸US¹-NL⁰_1|4.4MB/s|8%|GPT⁺|YT","network":"ws","password":"8r<[9'l6hAO#8ZQi","port":8443,"server":"172.66.44.230","skip-cert-verify":false,"sni":"Koma-YT.PAGeS.Dev","type":"trojan","udp":true,"ws-opts":{"headers":{"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"},"path":"/tro8sFW1S91B6sZrM1","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560}}
-  - {"down":"","fingerprint":"","name":"🇺🇸US²_12|4.8MB/s|63%|GPT⁺|YT-RU","obfs":"salamander","obfs-password":"PQ$hN78bzXWN","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":10086,"server":"us1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"us1.xiaoliyu.cyou","type":"hysteria2","up":""}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇫🇷FR²_3|3.1MB/s|0%|GPT⁺|YT-GE","network":"tcp","port":443,"reality-opts":{"public-key":"r3Zi1TT2xyUFYi0o9Q60wQ0z9SEogEPpjhoKQfWISB4","short-id":"40a54b0172dbd0f1"},"server":"zaeb.beestvpn.ru","tls":true,"type":"vless","udp":true,"uuid":"4f51ca84-43ea-4087-b8a2-938e0ccbe27a","xudp":true,"servername":"zaeb.beestvpn.ru"}
-  - {"alpn":["http%2F1.1"],"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇷🇺RU²_4|4.8MB/s|GPT⁺|YT","network":"tcp","port":52006,"server":"cluster11.anti-vpn.ru","tls":true,"type":"vless","udp":true,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","xudp":true,"servername":"cluster11.anti-vpn.ru"}
-  - {"down":"","fingerprint":"","name":"🇺🇸US²_13|5.3MB/s|0%|GPT⁺|YT","obfs":"","obfs-password":"","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":443,"server":"134.195.101.199","skip-cert-verify":true,"sni":"www.apple.com","type":"hysteria2","up":""}
-  - {"client-fingerprint":"firefox","encryption":"none","grpc-opts":{"grpc-service-name":"grpc"},"name":"🇷🇺RU²_5|4.3MB/s|YT","network":"grpc","port":5432,"reality-opts":{"public-key":"WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8","short-id":"489da765"},"server":"45.144.30.81","tls":true,"type":"vless","udp":true,"uuid":"f8c5b018-f51a-4137-be8a-50a451630589","xudp":true,"servername":"www.samsung.com"}
-  - {"client-fingerprint":"chrome","name":"🇺🇸US²_14|4.7MB/s|GPT⁺|YT","network":"ws","port":443,"server":"63.141.128.188","tls":true,"type":"vless","udp":true,"uuid":"d46056cf-da4e-4426-a3e4-39fcbfefa112","ws-opts":{"headers":{"Host":"d2-us1.djwstlsweb.top","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"},"path":"/djjc/us1"},"xudp":true,"servername":"d2-us1.djwstlsweb.top"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇸🇪SE²_1|3.0MB/s|35%|GPT⁺|YT","network":"tcp","port":443,"reality-opts":{"public-key":"Mm-d06LgjpLq_Y0aTRuf8cbueCumBku9r4ygFUGTE2o","short-id":"7b7c7376cba460cf"},"server":"70.34.201.81","tls":true,"type":"vless","udp":true,"uuid":"43488128-319e-f480-64ea-0acdc712e2a8","xudp":true,"servername":"www.booking.com"}
-  - {"client-fingerprint":"chrome","http-opts":{"headers":{},"path":["/"]},"name":"🇯🇵JP²_2|4.4MB/s|GPT⁺|YT","network":"tcp","port":443,"reality-opts":{"public-key":"TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw","short-id":""},"server":"8.211.130.238","tls":true,"type":"vless","udp":true,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","xudp":true,"servername":"api.digital-help-prd.autodesk.com"}
-  - {"client-fingerprint":"chrome","name":"🇩🇪DE⁻¹_1|4.4MB/s|YT","network":"ws","password":"trojan","port":8444,"server":"212.23.200.10","skip-cert-verify":false,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"User-Agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"},"path":"/"}}
-  - {"auth":"dongtaiwang.com","name":"🇫🇷FR²_4|4.0MB/s|GPT⁺|YT|Succeed","password":"dongtaiwang.com","port":41800,"ports":"41000-42000","server":"163.172.113.118","skip-cert-verify":true,"sni":"www.microsoft.com","type":"hysteria2","udp":true}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇩🇪DE²_4|2.6MB/s|24%|GPT⁺|YT","network":"tcp","port":9443,"reality-opts":{"public-key":"wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg","short-id":"2344766a270a6298"},"server":"159.195.82.187","tls":true,"type":"vless","udp":true,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","xudp":true,"servername":"yahoo.com"}
-  - {"client-fingerprint":"edge","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_15|2.8MB/s|0%|GPT⁺","network":"tcp","port":443,"reality-opts":{"public-key":"UVteEq1YeqUTm7WIGPDUwQ3pegxSSWR9CBCXglsVLAU","short-id":"7a3f9e2b1c8d4f6a"},"server":"fl-cdn.ru","tls":true,"type":"vless","udp":true,"uuid":"2818b4d1-86f2-4cb5-a522-672d1cea7f08","xudp":true,"servername":"fl-cdn.ru"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_16|3.9MB/s|0%|GPT⁺","network":"tcp","port":443,"reality-opts":{"public-key":"DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY","short-id":"4fa44664f6a566d3"},"server":"gr.milas.click","tls":true,"type":"vless","udp":true,"uuid":"913c6074-a747-492b-a7e9-5abfcad6369d","xudp":true,"servername":"gr.milas.click"}
-  - {"down":"","fingerprint":"","name":"🇨🇭CH²_1|3.6MB/s|30%|GPT⁺|YT-US","obfs":"","obfs-password":"","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":4433,"server":"es1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"es1.xiaoliyu.cyou","type":"hysteria2","up":""}
-  - {"client-fingerprint":"chrome","encryption":"none","name":"🇩🇪DE²_5|3.0MB/s|0%|GPT⁺","network":"xhttp","port":443,"reality-opts":{"public-key":"GAT-fh13Ajh__w7tYYV4rUfHV9aiDIg2NxVumJGUGgM","short-id":"deadbeef42"},"server":"de41.gosocial.today","tls":true,"type":"vless","udp":true,"uuid":"337582a5-3705-11f1-953f-dc08fb041e0d","xudp":true,"servername":"www.apple.com"}
-  - {"client-fingerprint":"chrome","encryption":"none","grpc-opts":{"grpc-service-name":"google.pubsub.v1.Subscriber"},"name":"🇩🇪DE²_6|4.0MB/s|0%|GPT⁺|YT-RU","network":"grpc","port":443,"reality-opts":{"public-key":"Duxwa0WD9RhAy4EsGdWgo2ALlOUWGfZ2KCVLKEP_214","short-id":"8b3e5f2a7d4c1069"},"server":"85.93.10.213","tls":true,"type":"vless","udp":true,"uuid":"e1a963f1-6a37-4a33-bcda-83f41211aff3","xudp":true,"servername":"www.bing.com"}
-  - {"down":"","fingerprint":"","name":"🇧🇷BR²_2|3.1MB/s|3%|GPT⁺|YT","obfs":"","obfs-password":"","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":35000,"server":"167.234.251.78","skip-cert-verify":true,"sni":"www.apple.com","type":"hysteria2","up":""}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_17|1.8MB/s|3%|GPT⁺|YT","network":"tcp","port":12345,"reality-opts":{"public-key":"_zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0","short-id":""},"server":"px-x02.xiaoxiaobujidao.xyz","tls":true,"type":"vless","udp":true,"uuid":"9b5b522d-e150-495d-9aa3-b4b74cd8981d","xudp":true,"servername":"dash.cloudflare.com"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"🇳🇱NL²_6|2.9MB/s|86%|GPT⁺|YT-PK|History","password":"k1dBOmOB4oqi7Ump37a1bQ","port":8080,"server":"82.38.31.208","type":"ss","udp":true}
-  - {"alpn":["http/1.1"],"client-fingerprint":"chrome","encryption":"none","name":"🇫🇷FR²_5|3.1MB/s|60%|GPT⁺|YT-DE","network":"ws","port":2083,"server":"104.16.80.73","tls":true,"type":"vless","udp":true,"uuid":"ebe44c2c-96ed-4a36-8456-2e9ee60c859c","ws-opts":{"headers":{"Host":"mnv1.gozargahping.top","User-Agent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36"},"path":"/wss14139","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048},"xudp":true,"servername":"mnv1.gozargahping.top"}
-  - {"down":"","fingerprint":"","name":"🇸🇬SG²_4|5.2MB/s|0%|GPT⁺|YT-US","obfs":"","obfs-password":"","password":"38428a74-c651-47a5-b2c9-4bec5a1809cf","port":35000,"server":"143.47.56.230","skip-cert-verify":true,"sni":"www.lamer.com.hk","type":"hysteria2","up":""}
-  - {"alpn":[""],"alterId":"0","cipher":"auto","name":"🇳🇱NL²_7|2.8MB/s","network":"tcp","port":30830,"server":"v30.hdacd.com","skip-cert-verify":false,"tls":false,"type":"vmess","udp":true,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","xudp":true}
-  - {"client-fingerprint":"chrome","encryption":"none","grpc-opts":{"grpc-service-name":"xyz"},"name":"🇷🇺RU²_6|2.9MB/s|20%|GPT⁺|YT","network":"grpc","port":2041,"reality-opts":{"public-key":"qAzDiElJXS4orwLfz63SFhCJ-EB1AGXMoL3mSc0mNV0","short-id":""},"server":"se.clgate.network","tls":true,"type":"vless","udp":true,"uuid":"ccc4d100-07ec-4dbd-a054-50216788e15e","xudp":true,"servername":"cloudcdn-m9-15.cdn.yandex.net"}
-  - {"down":"","fingerprint":"","name":"🇬🇧GB²_1|5.6MB/s|33%|GPT⁺|YT","obfs":"salamander","obfs-password":"T$rMIL_(dd($Ydfz","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":10086,"server":"gb1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"gb1.xiaoliyu.cyou","type":"hysteria2","up":""}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇲🇺MU²_1|2.4MB/s|0%|GPT⁺|YT-PL","network":"tcp","port":443,"reality-opts":{"public-key":"_t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE","short-id":"f37fb7531c60780d"},"server":"polands.stardevs.top","tls":true,"type":"vless","udp":true,"uuid":"f00984ef-f57e-41db-9182-b25f7bc3a1e2","xudp":true,"servername":"polands.stardevs.top"}
-  - {"client-fingerprint":"chrome","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇩🇪DE²_7|3.2MB/s|0%|GPT⁺|YT-RU","network":"tcp","port":8443,"reality-opts":{"public-key":"GAT-fh13Ajh__w7tYYV4rUfHV9aiDIg2NxVumJGUGgM","short-id":"deadbeef42"},"server":"de41.gosocial.today","tls":true,"type":"vless","udp":true,"uuid":"337582a5-3705-11f1-953f-dc08fb041e0d","xudp":true,"servername":"www.apple.com"}
-  - {"fingerprint":"","name":"🇬🇧GB²_2|2.1MB/s|33%|GPT⁺|YT","password":"a4c1b618-024a-42d4-b78a-1c25c337a484","port":4430,"server":"gb1.xiaoliyu.cyou","skip-cert-verify":true,"sni":"gb1.xiaoliyu.cyou","type":"anytls","udp":true,"username":"a4c1b618-024a-42d4-b78a-1c25c337a484"}
-  - {"client-fingerprint":"edge","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_8|1.9MB/s|14%|YT","network":"tcp","port":58888,"reality-opts":{"public-key":"Py_20O8xMOyvtgjbHegVy_EK_CU3-BetwxM19Rj24zo","short-id":"7a3f9e2b1c8d4f6a"},"server":"5.255.111.183","tls":true,"type":"vless","udp":true,"uuid":"2818b4d1-86f2-4cb5-a522-672d1cea7f08","xudp":true,"servername":"yastatic.net"}
-  - {"client-fingerprint":"chrome","encryption":"none","name":"🇳🇱NL²_9|2.0MB/s|0%|GPT⁺|YT-RU","network":"xhttp","port":443,"reality-opts":{"public-key":"T_lUXR8Es1WH_N83UNL6r0n29_auf3HALtlUnHQLaXc","short-id":"9ba7d54c"},"server":"45.66.162.3","tls":true,"type":"vless","udp":true,"uuid":"a2415a12-3f92-4636-9823-9828d3ceb818","xudp":true,"servername":"www.cloudflare.com"}
-  - {"client-fingerprint":"ios","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇺🇸US²_18|2.3MB/s|3%|YT","network":"tcp","port":443,"reality-opts":{"public-key":"qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o","short-id":"aac4df9d05a5ba8f"},"server":"129.153.71.226","tls":true,"type":"vless","udp":true,"uuid":"d46056cf-da4e-4426-a3e4-39fcbfefa112","xudp":true,"servername":"iosapps.itunes.apple.com"}
-  - {"client-fingerprint":"edge","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇸🇪SE²_2|4.2MB/s|0%|GPT⁺","network":"tcp","port":443,"reality-opts":{"public-key":"nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q","short-id":"7a3f9e2b1c8d4f6a"},"server":"se-cdn.ru","tls":true,"type":"vless","udp":true,"uuid":"2818b4d1-86f2-4cb5-a522-672d1cea7f08","xudp":true,"servername":"se-cdn.ru"}
-  - {"client-fingerprint":"chrome","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇱🇹LT²_1|1.3MB/s|0%|GPT⁺|YT-GB","network":"tcp","port":8443,"reality-opts":{"public-key":"Rj50mPClCPfIPFMG66UWEhEyE9sOHhMwT6gMX26jC04","short-id":"372c05b48fe83e5b"},"server":"155.212.189.198","tls":true,"type":"vless","udp":true,"uuid":"2818b4d1-86f2-4cb5-a522-672d1cea7f08","xudp":true,"servername":"avatars.mds.yandex.net"}
-  - {"client-fingerprint":"qq","encryption":"none","flow":"xtls-rprx-vision","http-opts":{"headers":{},"path":["/"]},"name":"🇳🇱NL²_10|2.6MB/s|24%|GPT⁺|YT","network":"tcp","port":7443,"reality-opts":{"public-key":"5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI","short-id":"be0ce047"},"server":"152.53.60.114","tls":true,"type":"vless","udp":true,"uuid":"248d1886-8ae0-4079-a281-4d21bdb74ba4","xudp":true,"servername":"chat.deepseek.com"}
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_1|5.3MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.52.240
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - name: 🇺🇸US¹-KR⁰_1|4.9MB/s|15%|YT|X
+    network: ws
+    port: 8880
+    server: 104.16.107.139
+    type: vless
+    uuid: ff7390de-ce93-4d7d-b08b-bef8f71a85cf
+    ws-opts:
+      headers:
+        Host: tiny-lake-c7f3.16-1af.workers.dev
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_2|5.0MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 172.64.150.246
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_3|6.3MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.36.166
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_4|6.0MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.145.2
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    name: 🇹🇼TW²_1|4.2MB/s|YT-CN|X
+    network: tcp
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 46424
+    server: 103.177.136.45
+    skip-cert-verify: true
+    sni: de.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+  - name: 🇺🇸US¹-KR⁰_2|6.3MB/s|15%|YT|X
+    network: ws
+    port: 8880
+    server: www.ipget.net
+    type: vless
+    uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
+    ws-opts:
+      headers:
+        Host: weathered-hat-76a5.380-d00.workers.dev
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE²_1|3.9MB/s|YT-RU|X
+    network: tcp
+    port: 1111
+    reality-opts:
+      public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+      short-id: ""
+    server: 78.159.250.32
+    tls: true
+    type: vless
+    uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
+    servername: api-maps.yandex.ru
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_5|4.8MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.153.159
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_6|5.0MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.40.49
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_7|4.6MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.13.196
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    name: 🇹🇼TW²_2|2.9MB/s|YT-CN|X
+    network: tcp
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 48697
+    server: 103.177.136.42
+    skip-cert-verify: true
+    sni: gh.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+  - name: 🇭🇰HK¹-JP⁰_1|11.6MB/s|0%|YT|X
+    network: ws
+    port: 8880
+    server: 104.26.13.40
+    type: vless
+    uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
+    ws-opts:
+      headers:
+        Host: aged-pine-d8c4.379.workers.dev
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US¹-SG⁰_1|7.0MB/s|15%|YT|X|Succeed
+    network: ws
+    port: 443
+    server: 47.93.235.180
+    tls: true
+    type: vless
+    udp: true
+    uuid: Telegram🇨🇳 @WangCai2
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: support.zoom.us.yxls.eu.cc
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      max-early-data: 2560
+      path: /sg-melbi
+    xudp: true
+    packet-encoding: xudp
+    servername: support.zoom.us.yxls.eu.cc
+  - name: 🇺🇸US¹-JP⁰_1|5.2MB/s|15%|YT|X
+    network: ws
+    port: 8880
+    server: 172.64.94.251
+    type: vless
+    uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
+    ws-opts:
+      headers:
+        Host: aged-pine-d8c4.379.workers.dev
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_8|3.3MB/s|100%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.53.34
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_9|3.2MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 162.159.11.57
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_10|6.1MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 162.159.21.206
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_11|4.8MB/s|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 162.159.42.182
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇯🇵JP¹⁺_1|3.9MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 158.101.132.216
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - multiplexing: MULTIPLEXING_LOW
+    name: 🇺🇸US²_1|4.3MB/s|0%|YT-CN|X|Succeed
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: 🇺🇸US¹-KR⁰_3|5.0MB/s|15%|YT|X
+    network: ws
+    port: 8880
+    server: 104.16.100.66
+    type: vless
+    uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
+    ws-opts:
+      headers:
+        Host: square-waterfall-c1de.199-82d.workers.dev
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+  - client-fingerprint: chrome
+    name: 🇩🇪DE²_2|5.0MB/s|YT|X|Succeed
+    network: tcp
+    port: 55555
+    reality-opts:
+      public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
+      short-id: "880eeeef4927eed5"
+    server: 88.198.117.90
+    tls: true
+    type: vless
+    uuid: 7e95caf9-f428-4976-ab7c-d160d7e78f74
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇯🇵JP¹⁺_2|8.9MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 108.160.131.197
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇺🇸US²_2|5.8MB/s|YT-IR|X
+    network: tcp
+    port: 2087
+    reality-opts:
+      public-key: pe0Sjep7RUJlLrN007SvN-Bk-VwUGhFbR_9ijr1wHTA
+      short-id: "c5b8"
+    server: 143.14.59.229
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: t-me-V2RayyNGvpn
+    servername: www.amd.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_12|3.0MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 198.41.223.238
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_13|5.0MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 104.18.44.198
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    encryption: none
+    name: 🇩🇪DE²_3|5.5MB/s|X|Succeed
+    network: xhttp
+    packet-encoding: xudp
+    port: 443
+    server: 89.144.30.104
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    xhttp-opts:
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      path: /kavir
+    xudp: true
+    servername: dey.lnmarketplace.net
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_1|4.4MB/s|0%|YT|X|Succeed
+    port: 14003
+    reality-opts:
+      public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
+      short-id: "80963776"
+    server: vip.bcjdvip.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    network: tcp
+    servername: apple.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_14|4.7MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.21.235
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_15|4.7MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 108.162.198.43
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - name: 🇺🇸US¹⁺_16|7.1MB/s|15%|YT|X
+    network: ws
+    port: 8880
+    server: 104.27.82.154
+    type: vless
+    uuid: b0962bf7-0b03-4353-9be1-131b78ad71d0
+    ws-opts:
+      headers:
+        Host: weathered-truth-581a.383.workers.dev
+      path: /pyip=ProxyIP.US.CMLiussss.net
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_17|5.4MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.145.186
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_18|5.0MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 108.162.196.3
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - name: 🇺🇸US¹⁺_19|5.5MB/s|15%|YT|X|Succeed
+    network: ws
+    port: 8880
+    server: www.gov.ua
+    type: vless
+    uuid: da5ff974-c135-4b57-a0ff-53dd2502e71e
+    ws-opts:
+      headers:
+        Host: long-smoke-b6cb.290-cd1.workers.dev
+      path: /pyip=ProxyIP.US.CMLiussss.net
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_2|3.5MB/s|0%|YT|X|Succeed
+    network: tcp
+    packet-encoding: xudp
+    port: 14007
+    reality-opts:
+      public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
+      short-id: "1d89ebb78c"
+    server: vip.bcjdvip.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    servername: apple.com
+  - name: 🇺🇸US¹⁺_20|4.5MB/s|0%|YT|X
+    network: ws
+    port: 8880
+    server: www.ipget.net
+    type: vless
+    uuid: b0962bf7-0b03-4353-9be1-131b78ad71d0
+    ws-opts:
+      headers:
+        Host: weathered-truth-581a.383.workers.dev
+      path: /pyip=ProxyIP.US.CMLiussss.net
+  - name: 🇸🇬SG²_1|13.4MB/s|1%|YT|X|Succeed
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-sg-003.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-sg-003.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: 🇭🇰HK²_3|8.4MB/s|0%|X|Succeed
+    network: tcp
+    port: 14001
+    reality-opts:
+      public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
+      short-id: "16"
+    server: vip.bcjdvip.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    xudp: true
+    packet-encoding: xudp
+    servername: apple.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵JP²_1|4.8MB/s|0%|YT-CN|X
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: inWWi-iPaVPN5DqkH8zXKTwSjkwBo8ucXr6JqiombRs
+      short-id: "7e"
+    server: 45.192.196.149
+    tls: true
+    type: vless
+    uuid: 296b3a95-2815-4594-a470-ea8fa78ec071
+    servername: apple.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_21|6.8MB/s|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 162.159.16.154
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_22|5.8MB/s|15%|YT|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 162.159.38.25
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇸🇬SG¹⁺_1|12.1MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 207.148.119.176
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_23|4.7MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 162.159.45.201
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_24|2.2MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 162.159.3.48
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_4|2.9MB/s|0%|YT|X|Succeed
+    network: tcp
+    port: 14010
+    reality-opts:
+      public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+      short-id: "1ebaa8ea57a71ffc"
+    server: vip.bcjdvip.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    xudp: true
+    packet-encoding: xudp
+    servername: apple.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_25|4.6MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.46.226
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_5|2.7MB/s|0%|YT|X|Succeed
+    port: 14001
+    reality-opts:
+      public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
+      short-id: "16"
+    server: vip.bcjdvip.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    network: tcp
+    servername: apple.com
+  - client-fingerprint: chrome
+    name: 🇺🇸US¹⁺_26|5.6MB/s|15%|YT|X|History
+    network: ws
+    password: eeb6823c-b926-4ea2-866a-5542edd26e59
+    port: 8443
+    server: 162.159.15.39
+    skip-cert-verify: false
+    sni: tjsp.hhxaf.cc.cd
+    type: trojan
+    ws-opts:
+      headers:
+        Host: tjsp.hhxaf.cc.cd
+      path: /
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_27|6.0MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.42.44
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_6|5.1MB/s|0%|YT|X|Succeed
+    network: tcp
+    port: 14003
+    reality-opts:
+      public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
+      short-id: "80963776"
+    server: vip.bcjdvip.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    xudp: true
+    packet-encoding: xudp
+    servername: apple.com
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_7|6.9MB/s|0%|YT|X|Succeed
+    port: 14010
+    reality-opts:
+      public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+      short-id: "1ebaa8ea57a71ffc"
+    server: vip.bcjdvip.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    network: tcp
+    servername: apple.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: edge
+    name: 🇩🇪DE²_4|4.4MB/s|YT-IR|X
+    network: ws
+    port: 2096
+    server: 172.66.47.69
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5ec03831-88a2-4586-a67e-93a8443b2089
+    ws-opts:
+      headers:
+        Host: Sharpobjectspresumedinocenets.hozheen.ir
+      path: /ws
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: e4fa2558b7e63e38.hozheen.ir
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE²_5|3.7MB/s|YT|X
+    network: tcp
+    port: 1152
+    reality-opts:
+      public-key: YzQz4D9KFIpJ5YB4W5UqPs8wgowbeujf9KEOyuATSE4
+      short-id: "e5115b6a2127146d"
+    server: de.amydoodles.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4dff3a2-81c9-4e44-bad9-56305900161d
+    xudp: true
+    packet-encoding: xudp
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_28|6.9MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.53.65
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US¹-SG⁰_2|7.3MB/s|15%|YT|X
+    network: ws
+    port: 443
+    server: 47.93.235.180
+    tls: true
+    type: vless
+    udp: true
+    uuid: 88888888-8888-8888-8888-888888888888
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: support.zoom.us.yxls.eu.cc
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      max-early-data: 2560
+      path: /sg-melbi
+    xudp: true
+    packet-encoding: xudp
+    servername: support.zoom.us.yxls.eu.cc
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_8|6.6MB/s|0%|YT|X|Succeed
+    port: 14007
+    reality-opts:
+      public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
+      short-id: "1d89ebb78c"
+    server: vip.bcjdvip.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    network: tcp
+    servername: apple.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_29|4.6MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.151.158
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US²_3|3.4MB/s|0%|YT-NL|X|History
+    network: xhttp
+    port: 49424
+    reality-opts:
+      public-key: _wmJo5YpHNrSzudYESs8ZvbuBPdAdIigioAHCUh64BY
+      short-id: "e13baa"
+    server: reseau.proxy.rlwy.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: c999714c-9946-4bf2-9427-588aa7c72c94
+    xhttp-opts:
+      mode: auto
+      path: /
+      x-padding-bytes: 100-1000
+    xudp: true
+    packet-encoding: xudp
+    servername: www.oracle.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_30|5.7MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 162.159.44.172
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰HK²_9|2.8MB/s|0%|YT|X|Succeed
+    port: 14006
+    reality-opts:
+      public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
+      short-id: "ff5ebee2264c"
+    server: vip.bcjdvip.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+    network: tcp
+    servername: apple.com
+  - name: 🇸🇬SG²_2|10.6MB/s|1%|YT|X|Succeed
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 54.254.116.49
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+    type: hysteria2
+  - name: 🇹🇼TW²_3|4.0MB/s|YT-CN|X
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 47909
+    server: 103.177.136.42
+    skip-cert-verify: true
+    sni: is.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_31|6.0MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.46.24
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_32|4.9MB/s|15%|YT|X|History
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.41.198
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_33|5.6MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.32.29
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US²_4|4.2MB/s|0%|YT-NL|X
+    network: xhttp
+    port: 50863
+    reality-opts:
+      public-key: xFLeloMUE4mClrI8Ob4SEdgktNhXghExPvKTMID0ZmU
+      short-id: "c6"
+    server: caboose.proxy.rlwy.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: "@MAconnectt"
+    xhttp-opts:
+      mode: auto
+      path: /
+      x-padding-bytes: 100-1000
+    xudp: true
+    packet-encoding: xudp
+    servername: is1-ssl.mzstatic.com
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_34|5.3MB/s|15%|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.35.206
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: https://dns.alidns.com/dns-query
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: 🇺🇸US¹⁺_35|4.8MB/s|YT|X|Succeed
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.53.27
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    include-all: true
+    type: select
+  - name: ♻️ 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💬 Ai平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎥 奈飞节点
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软Bing
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇯🇵 日本节点
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇺🇲 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇳 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇬 狮城节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇰🇷 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🎥 奈飞节点
+    include-all: true
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    type: select
+rule-providers:
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+rules:
+  - PROCESS-NAME,subs-check.exe,🎯 全球直连
+  - PROCESS-NAME,subs-check,🎯 全球直连
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Bing,Ⓜ️ 微软Bing
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报消息
+  - RULE-SET,AI,💬 Ai平台
+  - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Origin,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,Bilibili,📺 哔哩哔哩
+  - RULE-SET,ChinaMedia,🌏 国内媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+复制
