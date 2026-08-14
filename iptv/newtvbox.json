@@ -1,5 +1,6 @@
 {
-  "storeHouse": [
+  "spider": "",
+  "sites": [
     {
       "sourceName": "电视",
       "sourceUrl": "https://qist.wyfc.qzz.io/jsm.json"
