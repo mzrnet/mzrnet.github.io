@@ -2,61 +2,61 @@
   "spider": "",
   "sites": [
     {
-      "Name": "电视",
-      "Url": "https://qist.wyfc.qzz.io/jsm.json"
+      "name": "电视",
+      "url": "https://qist.wyfc.qzz.io/jsm.json"
       "type": 0
     },
     {
-      "Name": "星河电视屋",
-      "Url": "http://116.196.116.76/tv"
+      "name": "星河电视屋",
+      "url": "http://116.196.116.76/tv"
       "type": 0
     },
     {
-      "Name": "星河",
-      "Url": "http://116.196.116.76/stv"
+      "name": "星河",
+      "url": "http://116.196.116.76/stv"
       "type": 0
     },  
     {
-      "Name": "荐片",
-      "Url": "https://tv.203511.xyz/0821.json"
+      "name": "荐片",
+      "url": "https://tv.203511.xyz/0821.json"
       "type": 0
     },
     {
-      "Name": "潇洒",
-      "Url": "https://qist.wyfc.qzz.io/xiaosa/api.json"
+      "name": "潇洒",
+      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json"
       "type": 0
     },
     {
-      "Name": "小盒子4K",
-      "Url": "http://xhztv.top/4k.json"
+      "name": "小盒子4K",
+      "url": "http://xhztv.top/4k.json"
       "type": 0
     },
     {
-      "Name": "ok",
-      "Url": "https://raw.liucn.cc/box/m.json"
+      "name": "ok",
+      "url": "https://raw.liucn.cc/box/m.json"
       "type": 0
     },
     {
-      "Name": "肥猫线路",
-      "Url": "http://肥猫.com/"
+      "name": "肥猫线路",
+      "url": "http://肥猫.com/"
       "type": 0
     },
     {
-      "Name": "饭太硬",
-      "Url": "https://qist.wyfc.qzz.io/fty.json"
+      "name": "饭太硬",
+      "url": "https://qist.wyfc.qzz.io/fty.json"
       "type": 0
     },
     {
-      "Name": "18",
-      "Url": "https://raw.githubusercontent.com/xzqcsa/ysc/837da76da2309050fa377e0e366896ea6a64e32f/xzqzy/18.json"
+      "name": "18",
+      "url": "https://raw.githubusercontent.com/xzqcsa/ysc/837da76da2309050fa377e0e366896ea6a64e32f/xzqzy/18.json"
       "type": 0
     },
     {
-      "Name": "苍蓝",
-      "Url": "https://13537.kstore.vip/tvbox/test.json"
+      "name": "苍蓝",
+      "url": "https://13537.kstore.vip/tvbox/test.json"
       "type": 0
     },
     {
-      "Name": "牛二",
-      "Url": "https://9280.kstore.space/newwex.json"
+      "name": "牛二",
+      "url": "https://9280.kstore.space/newwex.json"
       "type": 0
