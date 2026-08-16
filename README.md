@@ -8,7 +8,7 @@ https://mzrnet.github.io/iptv/1.m3u
 
 影视接口：
 
-https://mzrnet.github.io/iptv/tvbox.json
+https://mzrnet.github.io/iptv/tvbox.txt
 
 
 自用Clash地址:
