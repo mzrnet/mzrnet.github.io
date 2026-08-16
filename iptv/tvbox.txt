@@ -1,0 +1,29 @@
+{ 
+ "urls": [ 
+ { "url": "https://qist.wyfc.qzz.io/jsm.json", "name": "影视"}, 
+ { "url": "http://116.196.116.76/tv", "name": "星河电视屋"},
+ { "url": "http://116.196.116.76/stv", "name": "星河"}, 
+ { "url": "https://tv.203511.xyz/0821.json", "name": "荐片"}, 
+ { "url": "https://qist.wyfc.qzz.io/xiaosa/api.json", "name": "潇洒"}, 
+ { "url": "http://xhztv.top/4k.json", "name": "小盒子4K"}, 
+ { "url": "https://raw.liucn.cc/box/m.json", "name": "OK"},  
+ { "url": "http://肥猫.net/", "name": "肥猫" },
+ { "url": "https://qist.wyfc.qzz.io/fty.json", "name": "饭太硬" },
+ { "url": "http://fty.xxooo.cf/tv", "name": "饭太硬1"}, 
+ { "url": "https://raw.githubusercontent.com/xzqcsa/ysc/837da76da2309050fa377e0e366896ea6a64e32f/xzqzy/18.json", "name": "18" },
+ { "url": "https://9280.kstore.space/newwex.json", "name": "牛二"},
+ { "url": "https://9280.kstore.vip/newwex.json", "name": "王二小"},
+ { "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer", "name": "少儿频道"},
+ { "url": "http://home.jundie.top:81/top98.json", "name": "俊哥"},  
+ { "url": "http://xn--5mqx81b535a.com/", "name": "UUCCC"},
+ { "url": "http://124.223.214.31:8/api.json", "name": "interface"}, 
+ { "url": "https://www.iyouhun.com/tv/wex", "name": "新接口"}, 
+ { "url": "http://xn--6orr3pi6g9uu.top/", "name": "xn"},
+ { "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json", "name": "二月红"},   
+ { "url": "http://宝盒接口.top", "name": "宝盒"}, 
+ { "url": "http://影视仓.com/", "name": "影视仓"},
+ { "url": "https://700sjro44343.vicp.fun/vip/vip/tv.json", "name": "影视仓1"},
+ { "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/", "name": "王二小接口"},
+ { "url": "http://tv.999888987.xyz", "name": "王二小放牛娃"}
+ ]
+}
