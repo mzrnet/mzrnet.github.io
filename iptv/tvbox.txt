@@ -1,6 +1,7 @@
 { 
  "urls": [ 
  { "url": "https://qist.wyfc.qzz.io/jsm.json", "name": "影视"}, 
+ { "url": "https://tv.cc0cd.cc.cd", "name": "TVBOX"}, 
  { "url": "http://116.196.116.76/tv", "name": "星河电视屋"},
  { "url": "http://116.196.116.76/stv", "name": "星河"}, 
  { "url": "https://tv.203511.xyz/0821.json", "name": "荐片"}, 
