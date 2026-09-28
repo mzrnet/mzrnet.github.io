@@ -1,11 +1,15 @@
 { 
  "urls": [ 
- { "url": "https://qist.wyfc.qzz.io/jsm.json", "name": "影视"}, 
- { "url": "https://tv.cc0cd.cc.cd", "name": "TVBOX"}, 
+ { "url": "https://clun.top/box.json", "name": "🚀Clun🐞"}, 
+ { "url": "https://clun.top/fun.json", "name": "🔞Clun🐞"}, 
+ { "url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/short.json", "name": "🎬短剧"}, 
+ { "url": "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json", "name": "🎬影视"}, 
+ { "url": "https://tv.cc0cd.cc.cd", "name": "🍀TVBOX🍀"}, 
+ { "url": "https://qist.wyfc.qzz.io/jsm.json", "name": "🎭影视"}, 
  { "url": "http://116.196.116.76/tv", "name": "星河电视屋"},
  { "url": "http://116.196.116.76/stv", "name": "星河"}, 
  { "url": "https://tv.203511.xyz/0821.json", "name": "荐片"}, 
- { "url": "https://qist.wyfc.qzz.io/xiaosa/api.json", "name": "潇洒"}, 
+ { "url": "https://qist.wyfc.qzz.io/xiaosa/api.json", "name": "💫潇洒💫"}, 
  { "url": "http://xhztv.top/4k.json", "name": "小盒子4K"}, 
  { "url": "https://raw.liucn.cc/box/m.json", "name": "OK"},  
  { "url": "http://肥猫.net/", "name": "肥猫" },
